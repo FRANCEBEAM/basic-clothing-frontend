@@ -4,9 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'white': '#F4F4F4',
+        'white': '#F9F9F9',
         'black': '#252422',
         'fadeGray': '#7F8696',
+        'fadeFont': '#CBCBCB',
         'pink': '#F9CDCD',
         'bg-white': '#F5F7FB',
         'bg-deepwhite': '#FFFFFF',
