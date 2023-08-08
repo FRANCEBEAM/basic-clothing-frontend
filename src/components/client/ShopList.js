@@ -11,7 +11,6 @@ const ShopList = () => {
                 return res.json()
             })
             .then((data) => {
-                console.log(data)
                 setProductList(data)
             })
     }, [])
