@@ -2046,5 +2046,37 @@
             "brandName": "H&M",
             "damStyleWith": ""
         }
+    ],
+    "newarrivals" : [
+        {
+            "link": "/",
+            "bannerSub": "WOMEN’S",
+            "bannerText": "Dresses",
+            "bannerImg": "https://images.unsplash.com/photo-1502868354157-ec2edd2a1651?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80"
+        },
+        {
+            "link": "/",
+            "bannerSub": "WOMEN’S",
+            "bannerText": "Shoes & Accessories",
+            "bannerImg": "https://images.unsplash.com/photo-1523754865311-b886113bb8de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=813&q=80"
+        },
+        {
+            "link": "/",
+            "bannerSub": "WOMEN’S",
+            "bannerText": "Swimwear",
+            "bannerImg": "https://images.unsplash.com/photo-1581610489912-81b6f687972d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+        },
+        {
+            "link": "/",
+            "bannerSub": "MEN’S",
+            "bannerText": "Sportswear",
+            "bannerImg": "https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80"
+        },
+        {
+            "link": "/",
+            "bannerSub": "MEN’S",
+            "bannerText": "Clothes",
+            "bannerImg": "https://plus.unsplash.com/premium_photo-1661281366900-88b41445a004?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+        }
     ]
 }

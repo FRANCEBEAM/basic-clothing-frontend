@@ -1,19 +1,10 @@
-import React, { useState, useEffect } from 'react'
 import ProductList from './ProductList'
+import useFetch from '../../hooks/useFetch'
 
 const ShopList = () => {
 
-    const [productList, setProductList] = useState([]);
-    
-    useEffect(() => {
-        fetch('http://localhost:8000/products')
-            .then( res => {
-                return res.json()
-            })
-            .then((data) => {
-                setProductList(data)
-            })
-    }, [])
+    const { data: productList, error } = useFetch('http://localhost:8000/products')
+
 
   return (
     <>
@@ -34,6 +25,7 @@ const ShopList = () => {
                 </div>
 
                 <div className='w-full gap-9 pt-16 grid grid-cols-2 max-w-[1280px] m-auto justify-center md:grid-cols-3 lg:grid-cols-4'>
+                    {error && <div>Error fetching data from database </div>}
                     <ProductList productList={productList}/>
                 </div>
             </div>
