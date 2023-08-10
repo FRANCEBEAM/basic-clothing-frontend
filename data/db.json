@@ -2083,5 +2083,31 @@
             "bannerText": "Clothes",
             "bannerImg": "https://plus.unsplash.com/premium_photo-1661281366900-88b41445a004?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
         }
+    ],
+    "deals": [
+        {
+            "id": 1,
+            "idStyle": "img-1",
+            "link": "/",
+            "dealsText": "Top",
+            "dealsImg": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+            "dealsAlt": "Top"
+        },
+        {
+            "id": 2,
+            "idStyle": "img-2",
+            "link": "/",
+            "dealsText": "Bottom",
+            "dealsImg": "https://images.unsplash.com/photo-1519707574798-77140649cfe5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80",
+            "dealsAlt": "Bottom"
+        },
+        {
+            "id": 3,
+            "idStyle": "img-3",
+            "link": "/",
+            "dealsText": "Accessories",
+            "dealsImg": "https://images.unsplash.com/photo-1506169894395-36397e4aaee4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+            "dealsAlt": "Accessories"
+        }
     ]
 }

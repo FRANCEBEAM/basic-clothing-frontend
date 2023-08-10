@@ -4,6 +4,8 @@ import TopCloth from '../../components/client/TopCloth'
 import ShopList from '../../components/client/ShopList'
 import Marquee from '../../components/client/Marquee'
 import LatestArrivals from '../../components/client/LatestArrivals'
+import Deals from '../../components/client/Deals'
+import ShopNow from '../../components/client/ShopNow'
 
 
 
@@ -15,6 +17,8 @@ const Home = () => {
       <ShopList />
       <Marquee />
       <LatestArrivals />
+      <Deals />
+      <ShopNow />
     </>
   )
 }
