@@ -6,6 +6,7 @@ import Marquee from '../../components/client/Marquee'
 import LatestArrivals from '../../components/client/LatestArrivals'
 import Deals from '../../components/client/Deals'
 import ShopNow from '../../components/client/ShopNow'
+import Footer from '../../components/client/Footer'
 
 
 
@@ -19,6 +20,7 @@ const Home = () => {
       <LatestArrivals />
       <Deals />
       <ShopNow />
+      <Footer />
     </>
   )
 }
