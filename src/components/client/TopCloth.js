@@ -1,27 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import { Icon } from '@iconify/react';
 import TopClothList from './TopClothList';
+import useFetch from '../../hooks/useFetch';
 
 const TopCloth = () => {
-  const [topClothes, setTopClothes] = useState([])
-  const [error, setError] = useState(null)
 
-  useEffect(() => {
-    fetch('http://localhost:8000/topClothes')
-      .then( res => {
-        if (!res.ok) {
-          throw Error ('Couldnt fetch data')
-        }
-        return res.json()
-      })
-      .then((data) => {
-        setTopClothes(data)
-      })
-      .catch((err) => {
-        console.log(err.message)
-        setError(err.message)
-      })
-  }, []);
+  const { data: topClothes } = useFetch('http://localhost:8000/topClothes') 
+
 
   return (
     <>
@@ -36,15 +21,7 @@ const TopCloth = () => {
             </div>
 
             <div className='w-full h-full pt-16'>
-              {
-                error ? (
-                  <div className='text-red-500'>
-                    {error}
-                  </div>
-                ) : (
-                  <TopClothList topClothes={topClothes} />
-                )
-              }
+              { topClothes && <TopClothList topClothes={topClothes} /> }
             </div>
         </div>   
     </>

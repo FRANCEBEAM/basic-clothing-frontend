@@ -53,7 +53,7 @@ const ProductList = ({productList}) => {
     <>
         {
             productList.map((product, index) => (
-                <div className='m-auto justify-center flex-1 py-4' key={product.articleCode}>
+                <div className='m-auto justify-center flex-1 py-6' key={product.articleCode}>
                     <Link className='w-full flex relative' to='/'>
                         <img className='w-full' 
                             // src={product.image[0].src} 

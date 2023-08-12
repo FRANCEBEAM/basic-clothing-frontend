@@ -14,7 +14,7 @@ const Deals = () => {
                 <p className='text-base font-normal text-black pt-7 max-w-[470px] m-auto justify-center'>Discover amazing discounts on our premium clothing collection. Don't miss out on the opportunity to upgrade your wardrobe with high-quality fashion at unbeatable prices.</p>
             </div>
             <div className='w-full h-full pt-20 flex flex-col gap-5 lg:flex-row lg:flex-wrap lg:gap-y-4 lg:gap-x-4 lg:justify-center'>
-                <DealsList dealsList={dealsList} />
+                { dealsList && <DealsList dealsList={dealsList} /> }
             </div>
         </div>
     </>

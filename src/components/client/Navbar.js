@@ -57,7 +57,7 @@ const Navbar = () => {
     return (
         <>
             {!isAdminPage && (
-                <div className={`w-full fixed z-[999] ${location.pathname === '/signin' ? 'bg-transparent fixed' : ''} bg-${navbarBgColor}`}>
+                <div className={`w-full fixed z-[999] ${location.pathname === '/signin' ? 'bg-transparent fixed' : ''} bg-${navbarBgColor} ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about'  ? 'bg-white' : ''}`}>
                     <nav className={`p-3 py-4 w-full flex items-center justify-between m-auto lg:gap-20 lg:py-1 lg:max-w-[1280px] lg:px-0  `}>
                         <div>
                             <Link to='/'>
@@ -67,7 +67,7 @@ const Navbar = () => {
 
                         <div>
                             <div className={`cursor-pointer lg:hidden ${location.pathname === '/signin' ? 'hidden' : ''}`} onClick={handleClick}>
-                                {click ? '' : <FaBars className='transition-all' size={34} color={`${barsColor}`} />}
+                                {click ? '' : <FaBars className={`transition-all  ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' ? 'text-black' : `text-${barsColor}`}`} size={34} />}
                             </div>
                             {!['/signin', '/signup', '/email-verification', '/verification-success', '/forgot-password', '/password-reset'].includes(location.pathname) && (
                                 <ul className={click ? 'w-[320px] uppercase bg-black text-white absolute right-0 justify-center py-4 top-0 transition-all' : `text-${fontColor} top-[-2000%] w-[320px] absolute right-0 transition-all lg:top-[0px] lg:inline-flex lg:relative lg:items-center lg:w-full lg:uppercase text-lg lg:text-sm xl:gap-6`}>
@@ -83,62 +83,52 @@ const Navbar = () => {
                                     </li>
                                     <li className="p-3 group" >
                                         <Link 
-                                            className='relative'
+                                            className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' ? 'text-black' : ''}`}
                                             onClick={() => handleSetActiveSection('home')}
                                             to='/'>
                                             Home
                                             <span 
-                                                className={`${activeSection === 'home' ? `absolute bottom-[-1px] left-0 h-0.5 w-5 bg-${activeNavbar}` : `absolute bottom-[-1px] left-0 h-0.5 w-5 group-hover:bg-${navHover}` }`}></span>
+                                                className={`${activeSection === 'home' ? `absolute bottom-[-1px] left-0 h-0.5 w-5 bg-${activeNavbar}` : ``}`}></span>
                                         </Link>
                                     </li>
                                 <li className="p-3 py-3 group" >
                                     <Link 
-                                        className='relative' 
+                                        className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' ? 'text-black' : ''}`}
                                         onClick={() => handleSetActiveSection('shop')} 
                                         to='/shop'>
                                         Shop
                                         <span 
-                                            className={` ${activeSection === 'shop' ? `absolute bottom-[-1px] left-0 h-0.5 w-5 bg-${activeNavbar}` : `absolute bottom-[-1px] left-0 h-0.5 w-5 group-hover:bg-${navHover}`}`}></span>
+                                            className={` ${activeSection === 'shop' || location.pathname === '/shop' ? `absolute bottom-[-1px] left-0 h-0.5 w-5 bg-black` : ``}`}></span>
                                     </Link>
                                 </li>
                                 <li className="p-3 py-3 group" >
                                     <Link 
-                                        className='relative' 
-                                        onClick={() => handleSetActiveSection('arrivals')} 
-                                        to='/arrivals'>
-                                        New Arrivals
-                                        <span 
-                                            className={` ${activeSection === 'arrivals' ? `absolute bottom-[-1px] left-0 h-0.5 w-5 bg-${activeNavbar}` : `absolute bottom-[-1px] left-0 h-0.5 w-5 group-hover:bg-${navHover}`}`}></span>
-                                    </Link>
-                                </li>
-                                <li className="p-3 py-3 group" >
-                                    <Link 
-                                        className='relative' 
+                                        className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' ? 'text-black' : ''}`} 
                                         onClick={() => handleSetActiveSection('sales')}
                                         to='/sales'>
                                         Sales
                                         <span 
-                                            className={` ${activeSection === 'sales' ? `absolute bottom-[-1px] left-0 h-0.5 w-5 bg-${activeNavbar}` : `absolute bottom-[-1px] left-0 h-0.5 w-5 group-hover:bg-${navHover}`}`}></span>
+                                            className={` ${activeSection === 'sales' ? `absolute bottom-[-1px] left-0 h-0.5 w-5 bg-black` : ``}`}></span>
                                     </Link>
                                 </li>
                                 <li className="p-3 py-3 group" >
                                     <Link 
-                                        className='relative' 
+                                        className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' ? 'text-black' : ''}`} 
                                         onClick={() => handleSetActiveSection('about')}
                                         to='/about'>
                                         About Us
                                         <span 
-                                            className={` ${activeSection === 'about' ? `absolute bottom-[-1px] left-0 h-0.5 w-5 bg-${activeNavbar}` : 'absolute bottom-[-1px] left-0 h-0.5 w-5 group-hover:bg-white'}`}></span>
+                                            className={` ${activeSection === 'about' ? `absolute bottom-[-1px] left-0 h-0.5 w-5 bg-black` : ``}`}></span>
                                     </Link>
                                 </li>
                                 <li className="p-3 py-3 group" >
                                     <Link 
-                                        className='relative' 
+                                        className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' ? 'text-black' : ''}`} 
                                         onClick={() => handleSetActiveSection('contact')}
                                         to='/contact'>
                                         Contact Us
                                         <span 
-                                            className={` ${activeSection === 'contact' ? `absolute bottom-[-1px] left-0 h-0.5 w-5 bg-${activeNavbar}` : `absolute bottom-[-1px] left-0 h-0.5 w-5 group-hover:bg-${navHover}`}`}></span>
+                                            className={` ${activeSection === 'contact' ? `absolute bottom-[-1px] left-0 h-0.5 w-5 bg-black` : ``}`}></span>
                                     </Link>
                                 </li>
                                 <div className='lg:flex lg:items-center lg:ml-20'>
@@ -150,12 +140,12 @@ const Navbar = () => {
                                             </div>
                                         </form>
                                     </li>
-                                    <li className={`p-3 py-3 text-lg lg:text-${iconsColor}`} >
+                                    <li className={`p-3 py-3 text-lg ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' ? 'text-black' : `lg:text-${iconsColor}`}`} >
                                         <Link to='/cart'>
                                             <BiShoppingBag size={24} />
                                         </Link>
                                     </li>
-                                    <li className={`p-3 py-3 text-lg lg:text-${iconsColor}`} >
+                                    <li className={`p-3 py-3 text-lg ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' ? 'text-black' : `lg:text-${iconsColor}`}`} >
                                         <Link to='/signin'>
                                             <BiUser size={24} />
                                         </Link>

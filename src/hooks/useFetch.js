@@ -2,12 +2,13 @@ import { useState, useEffect } from 'react'
 
 const useFetch = (url) => {
 
-    const [data, setData] = useState([]);
+    const [data, setData] = useState(null);
     const [error, setError] = useState(null)
+    const [isLoading, setIsLoading] = useState(true)
 
     useEffect(() => {
         fetch(url)
-            .then( res => {
+            .then((res) => {
                 if (!res.ok) {
                     throw Error('Couldn\'t fetch data for that resources')
                 }
@@ -15,6 +16,7 @@ const useFetch = (url) => {
             })
             .then((data) => {
                 setData(data)
+                setIsLoading(false)
             })
             .catch((err) => {
                 console.log(err.message)
@@ -22,7 +24,7 @@ const useFetch = (url) => {
             })
     }, [url])
 
-    return { data, error }
+    return { data, error, isLoading }
 }
 
 export default useFetch

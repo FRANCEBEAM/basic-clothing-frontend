@@ -41,7 +41,7 @@ const LatestArrivals = () => {
                 <div className='relative flex items-center'>
                   <Icon color='white' onClick={() => handleSlideLeft(sliderRef)} className='cursor-pointer left-0 z-10 absolute text-5xl' icon="ph:arrow-circle-left-fill" />
                     <div className='whitespace-nowrap overflow-x-scroll relative w-full scrollbar-hide' ref={sliderRef}>
-                      <ArrivalsList newarrivals={newarrivals} />
+                      { newarrivals && <ArrivalsList newarrivals={newarrivals} />} 
                     </div>
                   <Icon color='white' onClick={() => handleSlideRight(sliderRef)} className='cursor-pointer absolute right-0 z-10 text-5xl' icon="ph:arrow-circle-right-fill" />
                 </div>
