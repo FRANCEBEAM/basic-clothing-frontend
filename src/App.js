@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom';
+import { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/client/Navbar';
 import Home from './pages/client/Home';
@@ -8,13 +8,27 @@ import Sales from './pages/client/Sales';
 import About from './pages/client/About';
 import Contact from './pages/client/Contact';
 import Cart from './pages/client/Cart';
+import SignIn from './pages/client/SignIn';
+import SignUp from './pages/client/SignUp';
+import ScrollToTop from './components/client/ScrollToTop';
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 function App() {
+
+  useEffect(()=>{
+    Aos.init({
+        duration: 1000,
+        once: true
+    });
+  }, []);
+
 
   return(
     <>
       <Router>
         <Navbar />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
@@ -24,6 +38,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/signin" element={<SignIn />} />
+          <Route path='/signup' element={<SignUp />} />
         </Routes>
       </Router>
     </>

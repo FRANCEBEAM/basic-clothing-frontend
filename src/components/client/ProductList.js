@@ -63,13 +63,17 @@ const ProductList = ({productList}) => {
                             onMouseEnter={() => handleHoverImageEnter(index)}
                             onMouseLeave={() => handleHoverImageLeave(index)}
                             />
-                        <div className='absolute top-7 right-4' 
+                        <div className='absolute top-5 right-3' 
                             onMouseEnter={() => handleHoverEnter(index)} 
                             onMouseLeave={() => handleHoverLeave(index)}>
                         {hoveredStatesHeart[index] ? (
-                            <Icon className='cursor-pointer block text-[34px] text-red-500 bg-none' icon="ph:heart-fill" />
+                            <div className='bg-gray-300 rounded-full p-2'>
+                                <Icon className='cursor-pointer block text-[30px] bg-none' icon="ph:heart-light" />
+                            </div>
                         ) : (
-                            <Icon className='cursor-pointer block text-[34px]' icon="ph:heart-light" />
+                            <div className='p-2'>
+                                <Icon className='cursor-pointer block text-[30px]' icon="ph:heart-light" />
+                            </div>
                         )}
                         </div>
                         <div className='absolute left-4 top-7 bg-black p-1 px-3 text-white rounded-md'>

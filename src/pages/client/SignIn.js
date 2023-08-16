@@ -1,30 +1,30 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-import { useValue } from "../../context/ContextProvider";
+// import { useValue } from "../../context/ContextProvider";
 
 const SignIn = () => {
-    const {
-        state: { currentUser },
-        dispatch,
-    } = useValue();
-    const navigate = useNavigate();
+    // const {
+    //     state: { currentUser },
+    //     dispatch,
+    // } = useValue();
+    // const navigate = useNavigate();
 
-    // Signin Submission
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        sessionStorage.setItem(
-            "user",
-            JSON.stringify({ user_role: "admin" })
-        );
-        dispatch({
-            type: "UPDATE_USER",
-            payload: JSON.parse(sessionStorage.getItem("user")),
-        });
-        currentUser.user_role === "admin"
-            ? navigate("/admin/dashboard")
-            : navigate("/user");
-    };
+    // // Signin Submission
+    // const handleSubmit = (e) => {
+    //     e.preventDefault();
+    //     sessionStorage.setItem(
+    //         "user",
+    //         JSON.stringify({ user_role: "admin" })
+    //     );
+    //     dispatch({
+    //         type: "UPDATE_USER",
+    //         payload: JSON.parse(sessionStorage.getItem("user")),
+    //     });
+    //     currentUser.user_role === "admin"
+    //         ? navigate("/admin/dashboard")
+    //         : navigate("/user");
+    // };
     return (
         <>
             <div className="w-full h-screen bg-[#000000]">
@@ -35,7 +35,7 @@ const SignIn = () => {
                 />
 
                 <div className="w-[360px] bg-bg-white absolute m-auto top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50 px-10 py-10 text-center rounded-lg">
-                    <form onSubmit={handleSubmit}>
+                    <form>
                         <h1 className="text-black py-5 text-2xl font-bold">
                             Login in to Your Account
                         </h1>

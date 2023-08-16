@@ -18,7 +18,9 @@ const TopClothList = ({topClothes}) => {
                         <h1 className='uppercase font-bold text-3xl pt-5 lg:text-4xl lg:pt-10'>{topClothe.prodPrice}</h1>
                         <div className={ index %2 ===1 ? 'inline-flex items-center gap-4 pt-5 lg:pt-10' : 'items-center gap-4 pt-5 lg:pt-10 flex'}>
                             <button className='p-3 px-6 rounded-full border-2 border-black cursor-pointer uppercase font-bold hover:bg-black hover:text-white transition-all'>Add To Cart</button>
-                            <Icon className='cursor-pointer' icon="mdi:heart-outline" fontSize={34} />
+                            <div className='hover:bg-gray-300 rounded-full p-2'>
+                             <Icon className='cursor-pointer' icon="mdi:heart-outline" fontSize={30} />
+                            </div>
                         </div>
                     </div>
                 </div>
