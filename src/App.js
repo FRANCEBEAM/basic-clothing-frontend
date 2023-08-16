@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './components/client/Navbar';
 import Home from './pages/client/Home';
 import Shop from './pages/client/Shop';
@@ -13,6 +13,7 @@ import SignUp from './pages/client/SignUp';
 import ScrollToTop from './components/client/ScrollToTop';
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import NotFound from './components/client/NotFound';
 
 function App() {
 
@@ -26,7 +27,7 @@ function App() {
 
   return(
     <>
-      <Router>
+      <Router basename='/basic-clothing-frontend/'>
         <Navbar />
         <ScrollToTop />
         <Routes>
@@ -40,6 +41,8 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/signin" element={<SignIn />} />
           <Route path='/signup' element={<SignUp />} />
+          <Route path='/404' element={<NotFound />} />
+          <Route path='*' element={<Navigate to="/404" replace />} />
         </Routes>
       </Router>
     </>

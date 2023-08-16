@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
         <footer className='w-full h-full bg-black'>
-            <div className='m-auto max-w-[1280px] py-36 p-3'>
+            <div className='m-auto max-w-[1280px] py-24 p-3'>
                 <div className='flex flex-wrap justify-between'>
 
                     <ul className='w-full relative md:w-auto'>

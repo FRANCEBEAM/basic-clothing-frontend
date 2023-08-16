@@ -58,7 +58,7 @@ const Navbar = () => {
     return (
         <>
             {!isAdminPage && (
-                <div className={`w-full fixed z-[999] ${location.pathname === '/signin' ? 'bg-transparent fixed' : ''} bg-${navbarBgColor} drop-shadow-md ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact'  ? 'bg-white drop-shadow-md' : ''}`}>
+                <div className={`w-full fixed z-[999] ${location.pathname === '/signin' ? 'bg-transparent fixed' : ''} bg-${navbarBgColor} drop-shadow-md ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/404' ? 'bg-white drop-shadow-md' : ''}`}>
                     <nav className={`p-3 py-4 w-full flex items-center justify-between m-auto lg:gap-20 lg:py-1 lg:max-w-[1280px] lg:px-0  `}>
                         <div>
                             <Link to='/'>
@@ -84,7 +84,7 @@ const Navbar = () => {
                                     </li>
                                     <li className="p-3 group" >
                                         <Link 
-                                            className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' ? 'text-black' : ''} ${click ? 'text-white' : ''}`}
+                                            className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' || location.pathname === '/404' ? 'text-black' : ''} ${click ? 'text-white' : ''}`}
                                             onClick={() => handleSetActiveSection('home')}
                                             to='/'>
                                             Home
@@ -94,7 +94,7 @@ const Navbar = () => {
                                     </li>
                                 <li className="p-3 py-3 group" >
                                     <Link 
-                                        className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' ? 'text-black' : ''} ${click ? 'text-white' : ''}`}
+                                        className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' || location.pathname === '/404' ? 'text-black' : ''} ${click ? 'text-white' : ''}`}
                                         onClick={() => handleSetActiveSection('shop')} 
                                         to='/shop'>
                                         Shop
@@ -104,7 +104,7 @@ const Navbar = () => {
                                 </li>
                                 <li className="p-3 py-3 group" >
                                     <Link 
-                                        className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' ? 'text-black' : ''} ${click ? 'text-white' : ''}`} 
+                                        className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' || location.pathname === '/404' ? 'text-black' : ''} ${click ? 'text-white' : ''}`} 
                                         onClick={() => handleSetActiveSection('sales')}
                                         to='/sales'>
                                         Sales
@@ -114,7 +114,7 @@ const Navbar = () => {
                                 </li>
                                 <li className="p-3 py-3 group" >
                                     <Link 
-                                        className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' ? 'text-black' : ''}${click ? 'text-white' : ''}`} 
+                                        className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' || location.pathname === '/404' ? 'text-black' : ''}${click ? 'text-white' : ''}`} 
                                         onClick={() => handleSetActiveSection('about')}
                                         to='/about'>
                                         About Us
@@ -124,7 +124,7 @@ const Navbar = () => {
                                 </li>
                                 <li className="p-3 py-3 group" >
                                     <Link 
-                                        className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' ? 'text-black' : ''}${click ? 'text-white' : ''}`} 
+                                        className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' || location.pathname === '/404' ? 'text-black' : ''}${click ? 'text-white' : ''}`} 
                                         onClick={() => handleSetActiveSection('contact')}
                                         to='/contact'>
                                         Contact Us
@@ -141,17 +141,17 @@ const Navbar = () => {
                                             </div>
                                         </form>
                                     </li>
-                                    <li className={`p-3 py-3 text-lg ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' ? 'text-black' : `lg:text-${iconsColor}`} ${click ? 'text-white' : ''}`} >
+                                    <li className={`p-3 py-3 text-lg ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/404' ? 'text-black' : `lg:text-${iconsColor}`} ${click ? 'text-white' : ''}`} >
                                         <Link to='/'>
                                             <Icon icon="mdi:heart-outline" fontSize={24} />
                                         </Link>
                                     </li>
-                                    <li className={`p-3 py-3 text-lg ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' ? 'text-black' : `lg:text-${iconsColor}`} ${click ? 'text-white' : ''}`} >
+                                    <li className={`p-3 py-3 text-lg ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/404' ? 'text-black' : `lg:text-${iconsColor}`} ${click ? 'text-white' : ''}`} >
                                         <Link to='/cart'>
                                             <BiShoppingBag size={24} />
                                         </Link>
                                     </li>
-                                    <li className={`p-3 py-3 text-lg ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' ? 'text-black' : `lg:text-${iconsColor}`} ${click ? 'text-white' : ''}`} >
+                                    <li className={`p-3 py-3 text-lg ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/404' ? 'text-black' : `lg:text-${iconsColor}`} ${click ? 'text-white' : ''}`} >
                                         <Link to='/signin'>
                                             <BiUser size={24} />
                                         </Link>
