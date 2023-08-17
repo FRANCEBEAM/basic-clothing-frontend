@@ -2,7 +2,7 @@
 
 export const SignInContent = [
     {
-        img: "../assets/vogue-img.jpg",
+        img: "./assets/vogue-img.jpg",
     }
 ]
 
@@ -48,7 +48,7 @@ export const HeroImages = [
 export const topClothes = [
     {
         "id": 1,
-        "image": "/assets/basicshirt.jpg",
+        "image": "./assets/basicshirt.jpg",
         "altImage": "basic t-shirt",
         "category": "t-shirt",
         "gender": "couple",
@@ -59,7 +59,7 @@ export const topClothes = [
     },
     {
         "id": 2,
-        "image": "/assets/basicjacket.jpg",
+        "image": "./assets/basicjacket.jpg",
         "altImage": "basic t-shirt",
         "category": "Jacket",
         "gender": "womens",
@@ -70,7 +70,7 @@ export const topClothes = [
     },
     {
         "id": 3,
-        "image": "/assets/basicpants.jpg",
+        "image": "./assets/basicpants.jpg",
         "altImage": "basic t-shirt",
         "category": "t-shirt",
         "gender": "mens",

@@ -7,7 +7,7 @@ const ShopNow = () => {
             
             <div className='w-full h-[450px] flex flex-col justify-center items-center z-[15]'>
                 <div className='w-full h-[450px] absolute bg-black opacity-60 z-10'></div>
-                <img className='w-full h-[450px] absolute object-cover' src="../assets/shopnow-bg.jpg" alt="" />
+                <img className='w-full h-[450px] absolute object-cover' src="./assets/shopnow-bg.jpg" alt="" />
                 <h1 className='uppercase font-bold text-6xl text-center text-pink max-w-[600px] z-[20]'>
                     Shop now and Elevate your Style
                 </h1>

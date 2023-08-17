@@ -14,6 +14,7 @@ import ScrollToTop from './components/client/ScrollToTop';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import NotFound from './components/client/NotFound';
+import Favorites from './pages/client/Favorites';
 
 function App() {
 
@@ -38,6 +39,7 @@ function App() {
           <Route path="/sales" element={<Sales />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path='/favorites' element={<Favorites />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/signin" element={<SignIn />} />
           <Route path='/signup' element={<SignUp />} />
