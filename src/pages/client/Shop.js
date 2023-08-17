@@ -1,12 +1,13 @@
 import React from 'react'
 import ProductList from '../../components/client/ProductList'
-import useFetch from '../../hooks/useFetch'
+// import useFetch from '../../hooks/useFetch'
+import { products } from '../../components/client/ContentTemplate'
 import SortCategory from '../../components/client/SortCategory'
 import Footer from '../../components/client/Footer'
 
 const Shop = () => {
 
-  const { data: productList, error } = useFetch('http://localhost:8000/products')
+  // const { data: productList, error } = useFetch('http://localhost:8000/products')
 
   return (
     <>
@@ -52,8 +53,9 @@ const Shop = () => {
           </div>
           <SortCategory />
           <div className='w-full gap-9 pt-16 grid grid-cols-2 max-w-[1280px] m-auto justify-center md:grid-cols-3 lg:grid-cols-4'>
-            {error && <div>Error fetching data from database </div>}
-            { productList && <ProductList productList={productList}/> }
+            {/* {error && <div>Error fetching data from database </div>}
+            { productList && <ProductList productList={productList}/> } */}
+           <ProductList products={products} /> 
           </div>
         </div>
        

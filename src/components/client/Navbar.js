@@ -26,6 +26,7 @@ const Navbar = () => {
     const [fontColor, setFontColor] = useState('white');
     const [barsColor, setBarsColor] = useState('white');
     const [iconsColor, setIconsColor] = useState('white');
+    const [logo, setLogo] = useState('casibblack.png')
     
     const handleScroll = () => {
         const scrollY = window.scrollY;
@@ -38,6 +39,7 @@ const Navbar = () => {
             setFontColor('black')
             setBarsColor('black')
             setIconsColor('black')
+            setLogo('casibwhite.png')
         } else {
             setNavbarBgColor('transparent')
             setNavHover('white')
@@ -45,6 +47,7 @@ const Navbar = () => {
             setFontColor('white')
             setBarsColor('white')
             setIconsColor('white')
+            setLogo('casibblack.png')
         }
     }
 
@@ -62,7 +65,7 @@ const Navbar = () => {
                     <nav className={`p-3 py-4 w-full flex items-center justify-between m-auto lg:gap-20 lg:py-1 lg:max-w-[1280px] lg:px-0  `}>
                         <div>
                             <Link to='/'>
-                                <img className='w-[100px]' src="./assets/casibwhite.png" alt="casib logo" />
+                                <img className='w-[100px]' src={`./assets/${logo}`} alt="casib logo" />
                             </Link>
                         </div>
 
@@ -141,17 +144,17 @@ const Navbar = () => {
                                             </div>
                                         </form>
                                     </li>
-                                    <li className={`p-3 py-3 text-lg ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/404' ? 'text-black' : `lg:text-${iconsColor}`} ${click ? 'text-white' : ''}`} >
+                                    <li className={`p-3 py-3 text-lg ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' || location.pathname === '/404' ? 'text-black' : `lg:text-${iconsColor}`} ${click ? 'text-white' : ''}`} >
                                         <Link to='/'>
                                             <Icon icon="mdi:heart-outline" fontSize={24} />
                                         </Link>
                                     </li>
-                                    <li className={`p-3 py-3 text-lg ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/404' ? 'text-black' : `lg:text-${iconsColor}`} ${click ? 'text-white' : ''}`} >
+                                    <li className={`p-3 py-3 text-lg ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' || location.pathname === '/404' ? 'text-black' || location.pathname === '/cart' : `lg:text-${iconsColor}`} ${click ? 'text-white' : ''}`} >
                                         <Link to='/cart'>
                                             <BiShoppingBag size={24} />
                                         </Link>
                                     </li>
-                                    <li className={`p-3 py-3 text-lg ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/404' ? 'text-black' : `lg:text-${iconsColor}`} ${click ? 'text-white' : ''}`} >
+                                    <li className={`p-3 py-3 text-lg ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' || location.pathname === '/404' ? 'text-black' : `lg:text-${iconsColor}`} ${click ? 'text-white' : ''}`} >
                                         <Link to='/signin'>
                                             <BiUser size={24} />
                                         </Link>

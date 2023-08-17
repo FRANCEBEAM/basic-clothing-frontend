@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Icon } from '@iconify/react';
 
-const ProductList = ({productList}) => {
+const ProductList = ({products}) => {
 
     const removeUnderscores = (text) => {
         return text.replace(/_/g, ' ');
@@ -16,8 +16,8 @@ const ProductList = ({productList}) => {
     }
 
 
-    const [hoveredStatesHeart, setHoveredStatesHeart] = useState(Array(productList.length).fill(false));
-    const [hoveredStatesImage, setHoveredStatesImage] = useState(Array(productList.length).fill(false));
+    const [hoveredStatesHeart, setHoveredStatesHeart] = useState(Array(products.length).fill(false));
+    const [hoveredStatesImage, setHoveredStatesImage] = useState(Array(products.length).fill(false));
 
     // Heart Icon
 
@@ -52,7 +52,7 @@ const ProductList = ({productList}) => {
   return (
     <>
         {
-            productList.map((product, index) => (
+            products.map((product, index) => (
                 <div className='m-auto justify-center flex-1 py-6' key={product.articleCode}>
                     <Link className='w-full flex relative' to='/'>
                         <img className='w-full' 

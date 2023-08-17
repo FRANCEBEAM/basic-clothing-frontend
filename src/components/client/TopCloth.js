@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import { Icon } from '@iconify/react';
 import TopClothList from './TopClothList';
-import useFetch from '../../hooks/useFetch';
+// import useFetch from '../../hooks/useFetch';
+import { topClothes } from './ContentTemplate';
 
 const TopCloth = () => {
 
-  const { data: topClothes } = useFetch('http://localhost:8000/topClothes') 
+  // const { data: topClothes } = useFetch('../../db.json') 
 
 
   return (
@@ -21,7 +22,8 @@ const TopCloth = () => {
             </div>
 
             <div className='w-full h-full pt-16'>
-              { topClothes && <TopClothList topClothes={topClothes} /> }
+              {/* { topClothes && <TopClothList topClothes={topClothes} /> } */}
+              <TopClothList topClothes={topClothes} />
             </div>
         </div>   
     </>
