@@ -27,7 +27,7 @@ function App() {
 
   return(
     <>
-      <Router>
+      <Router basename='/basic-clothing-frontend/'>
         <Navbar />
         <ScrollToTop />
         <Routes>
