@@ -13,10 +13,10 @@ const Story = () => {
                 <h1 data-aos="fade-up" className='pt-5 text-5xl lg:text-9xl font-bold lg:pt-[120px] lg:m-auto lg:text-center lg:pb-14'>STORY OF</h1> 
                 <p className='pt-10 font-thin text-sm text-justify lg:w-[420px]'>At Basic, we believe that style starts with simplicity. We're an online clothing store that embraces the beauty of essential wardrobe pieces, offering timeless designs that effortlessly elevate your everyday look. Our mission is to provide high-quality clothing that combines comfort, versatility, and impeccable style. 
                 </p>
-                <img className='hidden pt-14 w-20 md:w-[450px] lg:block' src="../assets/casibestablish.jpg" alt="casib building" />
+                <img className='hidden pt-14 w-20 md:w-[450px] lg:block' src="./assets/casibestablish.jpg" alt="casib building" />
               </div>
               <div  className='w-full sm:ml-10 lg:ml-0'>
-                <img className='hidden w-20 lg:w-[300px] lg:block' src="../assets/casibstore.jpg" alt="casib store" />
+                <img className='hidden w-20 lg:w-[300px] lg:block' src="./assets/casibstore.jpg" alt="casib store" />
                 <h1 data-aos="fade-left" className='text-5xl pt-10 lg:text-9xl font-bold lg:pt-[220px] lg:pb-14'>BASIC</h1>
                 <p className='font-thin pt-10 text-sm text-justify lg:w-[320px]'>Founded with a passion for fashion and a commitment to simplicity, Basic emerged as a response to the overwhelming complexity of the fashion industry. We noticed a need for well-crafted, timeless pieces that form the foundation of a modern wardrobe. We set out on a journey to create a brand that celebrates simplicity and delivers accessible style to fashion enthusiasts worldwide.</p>
               </div>

@@ -8,7 +8,7 @@ const NotFound = () => {
         <div className='w-full min-h-screen'>
             <div className='p-3 m-auto max-w-[1280px] py-36'>
                 <div className='md:flex md:flex-grid items-center m-auto justify-center gap-20 max-w-[900px]'>
-                    <img className='max-w-[400px] m-auto justify-center' src="../assets/404img.png" alt="" />
+                    <img className='max-w-[400px] m-auto justify-center' src="./assets/404img.png" alt="" />
                     <div className='pt-10'>
                         <h1 className='uppercase font-bold text-black text-3xl'>Oops! Page Not Found</h1>
                         <p className='pt-6 text-[#525252]'>We're sorry, but the page you are looking for cannot be found. It may have been moved, renamed, or no longer exists.</p>

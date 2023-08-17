@@ -12,7 +12,7 @@ const Footer = () => {
                     <ul className='w-full relative md:w-auto'>
                         <li className='pb-14'>
                             <Link className='' to='/'>
-                                <img className='w-28 bg-no-repeat bg-center absolute' src="../assets/casibblack.png" alt="casib logo" />
+                                <img className='w-28 bg-no-repeat bg-center absolute' src="./assets/casibblack.png" alt="casib logo" />
                             </Link>
                         </li>
                         <li className='max-w-[350px] text-left'>

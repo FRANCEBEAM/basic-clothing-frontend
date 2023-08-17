@@ -66,7 +66,7 @@ const Navbar = () => {
                         <div>
                             <Link to='/'>
                                 <img className='w-[100px]' 
-                                    src={`${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/favorites' || location.pathname === '/cart' ? `/assets/casibwhite.png` : `/assets/${logo}` }`} 
+                                    src={`${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/favorites' || location.pathname === '/cart' ? `./assets/casibwhite.png` : `./assets/${logo}` }`} 
                                     alt="casib logo"
                                     onClick={() => handleSetActiveSection('home')} />
                             </Link>

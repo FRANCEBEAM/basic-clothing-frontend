@@ -30,7 +30,7 @@ const SignIn = () => {
             <div className="w-full h-screen bg-[#000000]">
                 <img
                     className="absolute w-full h-screen object-cover inline-block opacity-40 z-0"
-                    src="/assets/vogue-img.jpg"
+                    src="./assets/vogue-img.jpg"
                     alt="vogue wallpapper"
                 />
 
