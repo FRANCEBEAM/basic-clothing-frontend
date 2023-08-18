@@ -1,7 +1,7 @@
 import ProductList from './ProductList'
 import SortCategory from './SortCategory'
-// import products from '../../data/products.json'
-import { products } from './ContentTemplate'
+// import { products } from './ContentTemplate'
+import products from '../../data/products.json'
 // import useFetch from '../../hooks/useFetch'
 
 const ShopList = () => {

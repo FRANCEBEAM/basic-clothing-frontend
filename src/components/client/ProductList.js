@@ -52,9 +52,50 @@ const ProductList = ({products}) => {
   return (
     <>
         {
-            products.map((product, index) => (
-                <div className='m-auto justify-center flex-1 py-6' key={product.articleCode}>
-                    <Link className='w-full flex relative' to='/'>
+            // products.map((product, index) => (
+            //     <div className='m-auto justify-center flex-1 py-6' key={product.articleCode}>
+            //         <Link className='w-full flex relative' to='/'>
+            //             <img className='w-full' 
+            //                 // src={product.image[0].src} 
+            //                 src={hoveredStatesImage[index] ? product.image[0].dataAltImage : product.image[0].src }
+            //                 dataaltimage={product.image[0].dataAltImage}
+            //                 alt={product.image[0].alt} 
+            //                 onMouseEnter={() => handleHoverImageEnter(index)}
+            //                 onMouseLeave={() => handleHoverImageLeave(index)}
+            //                 />
+            //             <div className='absolute top-5 right-3' 
+            //                 onMouseEnter={() => handleHoverEnter(index)} 
+            //                 onMouseLeave={() => handleHoverLeave(index)}>
+            //             {hoveredStatesHeart[index] ? (
+            //                 <div className='bg-gray-300 rounded-full p-2'>
+            //                     <Icon className='cursor-pointer block text-[30px] bg-none' icon="ph:heart-light" />
+            //                 </div>
+            //             ) : (
+            //                 <div className='p-2'>
+            //                     <Icon className='cursor-pointer block text-[30px]' icon="ph:heart-light" />
+            //                 </div>
+            //             )}
+            //             </div>
+            //             <div className='absolute left-4 top-7 bg-black p-1 px-3 text-white rounded-md'>
+            //                 <p className='text-xs md:text-sm'>{product.sellingAttribute}</p>
+            //             </div>
+            //         </Link>
+            //         <div className='pt-5'>
+            //             <p className='uppercase text-sm font-normal line-clamp-1'>{truncate(removeUnderscores(product.category), 34)}</p>
+            //             <Link to='/'>
+            //                 <h1 className='text-lg font-bold line-clamp-1'>{truncate(product.title, 34)}</h1>
+            //             </Link>
+            //             <p className='text-base pt-3 font-normal'>{product.price}</p>
+            //         </div>
+            //     </div>
+            // ))
+
+
+            products.map((product, index) => { 
+                const colors = Object.keys(product.colors).map((key) => product.colors[key])
+                return (
+                <div className='m-auto justify-center flex-1 py-6' key={product.id}>
+                    <Link className='w-full flex relative' to={product.link}>
                         <img className='w-full' 
                             // src={product.image[0].src} 
                             src={hoveredStatesImage[index] ? product.image[0].dataAltImage : product.image[0].src }
@@ -77,18 +118,36 @@ const ProductList = ({products}) => {
                         )}
                         </div>
                         <div className='absolute left-4 top-7 bg-black p-1 px-3 text-white rounded-md'>
-                            <p className='text-xs md:text-sm'>{product.sellingAttribute}</p>
+                            <p className='text-xs md:text-sm'>{product.arrival}</p>
                         </div>
                     </Link>
                     <div className='pt-5'>
-                        <p className='uppercase text-sm font-normal line-clamp-1'>{truncate(removeUnderscores(product.category), 34)}</p>
+                        <div className='w-full flex gap-4'>
+                            {
+                                
+                           colors.slice(0, 3).map((color, index) => {
+                                return (
+                                <ul key={index}>
+                                    <li>
+                                        <Link to={color[`link${index + 1}`]}>
+                                            <img className='max-w-[20px]' src={color.img} alt={color.dataAltColor} />
+                                        </Link>
+                                       
+                                    </li>
+                                </ul>
+                                )
+                            })
+                            }
+                        </div>
+                        <p className='uppercase text-sm font-normal line-clamp-1'>{product.category}</p>
                         <Link to='/'>
-                            <h1 className='text-lg font-bold line-clamp-1'>{truncate(product.title, 34)}</h1>
+                            <h1 className='text-lg font-bold line-clamp-1'>{truncate(product.name, 34)}</h1>
                         </Link>
-                        <p className='text-base pt-3 font-normal'>{product.price}</p>
+                        <p className='text-base pt-3 font-normal'>PHP {product.price}</p>
                     </div>
                 </div>
-            ))
+            )})
+            
         }
     </>
   )
