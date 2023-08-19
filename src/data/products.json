@@ -20,18 +20,21 @@
         "colors": [
             {
                 "link": "/",
+                "name": "Dark beige",
                 "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F35%2F68%2F3568c257a5d57c2318e35ead22d226e6a5362af4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_cardigansjumpers_jumpers%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-                "color": "Dark beige"
+                "dataAltColor": "Dark beige"
             }, 
             {
                 "link": "/",
+                "name": "Dark khaki green",
                 "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F52%2F6f%2F526fe1e208e5fd4b89c5c47e36c084ef42745ab4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-                "color": "Dark khaki green"
+                "dataAltColor": "Dark khaki green"
             }, 
             {
-                "link1": "/",
+                "name": "Black",
+                "link": "/",
                 "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fc2%2F49%2Fc24928ba921b1b4842a31d108bb44bd04697f6fd.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-                "color": "Black"
+                "dataAltColor": "Black"
             }
         ],
         "size": [
@@ -74,42 +77,49 @@
         "name": "Relaxed Fit Sweatshirt",
         "price": 899,
         "quantity": 12,
-        "category": "Mens",
+        "category": "Men's",
         "type": "Clothes",
         "arrival": "New Arrival",
         "colors": [
             {
                 "link": "/",
+                "name": "Black",
                 "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F54%2F60%2F546091a5910a7edaec2a189b113b6a82f4449e64.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
                 "dataAltColor": "Black"
             }, 
             {
                 "link": "/",
+                "name": "Light grey marl",
                 "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F8f%2F74%2F8f748f06a1cf49cf9cf1c83ff42f09b95be73898.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D1",
                 "dataAltColor": "Light grey marl"
             }, 
             {
                 "link": "/",
+                "name": "White",
                 "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fea%2Fc8%2Feac81dc95b2f446294f1457fd2269b26bb36b138.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
                 "dataAltColor": "White"
             },
             {
                 "link": "/",
+                "name": "Light beige",
                 "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Ff5%2F31%2Ff53131617fd6f17042e5a72483e3559f7dbd01eb.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
                 "dataAltColor": "Light beige"
             },
             {
                 "link": "/",
+                "name": "Stone grey",
                 "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F2e%2Fc5%2F2ec58641c8bb49893d432418c2ed595b7e73c8bb.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
                 "dataAltColor": "Stone grey"
             },
             {
                 "link": "/",
+                "name": "Light greige",
                 "img": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F1e%2F38%2F1e38a1df81f7f7c589f03292cff69e058477526c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
                 "dataAltColor": "Light greige"
             },
             {
                 "link": "/",
+                "name": "Beige",
                 "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fda%2Fd0%2Fdad0f1fd534ab7b5ce238934f2288181a0681b9a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B3%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
                 "dataAltColor": "Beige"
             }
@@ -135,7 +145,7 @@
             }
         ],
         "discount": null,
-        "description": "Slim-fit jumper in fine-knit cotton with a stand-up collar, zip at the front and long sleeves." ,
+        "description": "Top in sweatshirt fabric made from a cotton blend. Relaxed fit with dropped shoulders and ribbing around the neckline, cuffs and hem. Soft brushed inside." ,
         "updated_at": null,
         "created_at": null
     },
@@ -146,32 +156,32 @@
         "role": null,
         "image": [
             {
-                "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ff3%2Faa%2Ff3aa911cd5b3cfcaadacb7eaea479460edd57e33.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
-                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F35%2F68%2F3568c257a5d57c2318e35ead22d226e6a5362af4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_cardigansjumpers_jumpers%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-                "alt": "Slim Fit jumper"
+                "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fcc%2F0b%2Fcc0b4f919954f890ecf806d870bcd63380588c86.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Ff6%2Fa1%2Ff6a13ecf15c5391c5759389a884c51b1fd01e702.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_hoodiessweatshirts_hoodies%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "alt": "Relaxed Fit Printed hoodie"
             }
         ],
-        "name": "Slim Fit jumper",
-        "price": 1690,
-        "quantity": 12,
-        "category": "Mens",
+        "name": "Relaxed Fit Printed hoodie",
+        "price": 1590,
+        "quantity": 19,
+        "category": "Men's",
         "type": "Clothes",
         "arrival": "New Arrival",
         "colors": [
             {
                 "link": "/",
-                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F35%2F68%2F3568c257a5d57c2318e35ead22d226e6a5362af4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_cardigansjumpers_jumpers%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-                "dataAltColor": "Dark beige"
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Ff6%2Fa1%2Ff6a13ecf15c5391c5759389a884c51b1fd01e702.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_hoodiessweatshirts_hoodies%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Brown/Landscape"
+            },
+            {
+                "link": "/",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fcb%2F5b%2Fcb5b0392ccafe9f7af2bd544ca10df02f74b041e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_hoodiessweatshirts_hoodies%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Light pink"
             }, 
             {
                 "link": "/",
-                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F52%2F6f%2F526fe1e208e5fd4b89c5c47e36c084ef42745ab4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-                "dataAltColor": "Dark khaki green"
-            }, 
-            {
-                "link": "/",
-                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fc2%2F49%2Fc24928ba921b1b4842a31d108bb44bd04697f6fd.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-                "dataAltColor": "Black"
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fc6%2F65%2Fc665f3500056772dbdd7afd2278bb841c0b96da3.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_hoodiessweatshirts_hoodies%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Apricot/Orchids"
             }
         ],
         "size": [
@@ -195,7 +205,7 @@
             }
         ],
         "discount": null,
-        "description": "Slim-fit jumper in fine-knit cotton with a stand-up collar, zip at the front and long sleeves." ,
+        "description": "Hoodie in sweatshirt fabric made from a cotton blend with a soft brushed inside and a print motif. Relaxed fit with a double-layered, wrapover hood, dropped shoulders and long sleeves. Kangaroo pocket and ribbing at the cuffs and hem." ,
         "updated_at": null,
         "created_at": null
     },
@@ -206,32 +216,35 @@
         "role": null,
         "image": [
             {
-                "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ff3%2Faa%2Ff3aa911cd5b3cfcaadacb7eaea479460edd57e33.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
-                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F35%2F68%2F3568c257a5d57c2318e35ead22d226e6a5362af4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_cardigansjumpers_jumpers%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-                "dataAltColor": "Slim Fit jumper"
+                "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc8%2F99%2Fc899da8ef43bc5821bd223135e1f72e5dad8a4aa.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fc6%2F65%2Fc665f3500056772dbdd7afd2278bb841c0b96da3.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_hoodiessweatshirts_hoodies%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "alt": "Relaxed Fit hoodie"
             }
         ],
-        "name": "Slim Fit jumper",
-        "price": 1690,
-        "quantity": 12,
-        "category": "Mens",
+        "name": "Relaxed Fit Hoodie",
+        "price": 1590,
+        "quantity": 5,
+        "category": "Men's",
         "type": "Clothes",
         "arrival": "New Arrival",
         "colors": [
             {
                 "link": "/",
-                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F35%2F68%2F3568c257a5d57c2318e35ead22d226e6a5362af4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_cardigansjumpers_jumpers%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-                "dataAltColor": "Dark beige"
+                "name": "Light pink",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fc6%2F65%2Fc665f3500056772dbdd7afd2278bb841c0b96da3.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_hoodiessweatshirts_hoodies%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Light pink"
             }, 
             {
                 "link": "/",
-                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F52%2F6f%2F526fe1e208e5fd4b89c5c47e36c084ef42745ab4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-                "dataAltColor": "Dark khaki green"
+                "name": "Brown/Landscape",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Ff6%2Fa1%2Ff6a13ecf15c5391c5759389a884c51b1fd01e702.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_hoodiessweatshirts_hoodies%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Brown/Landscape"
             }, 
             {
                 "link": "/",
-                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fc2%2F49%2Fc24928ba921b1b4842a31d108bb44bd04697f6fd.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-                "dataAltColor": "Black"
+                "name": "Apricot/Orchids",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fcb%2F5b%2Fcb5b0392ccafe9f7af2bd544ca10df02f74b041e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_hoodiessweatshirts_hoodies%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Apricot/Orchids"
             }
         ],
         "size": [
@@ -266,31 +279,275 @@
         "role": null,
         "image": [
             {
-                "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ff3%2Faa%2Ff3aa911cd5b3cfcaadacb7eaea479460edd57e33.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
-                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F35%2F68%2F3568c257a5d57c2318e35ead22d226e6a5362af4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_cardigansjumpers_jumpers%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-                "alt": "Slim Fit jumper"
+                "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F44%2F12%2F4412c5a91c44bf220d0a58cc328e827b61567264.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fd3%2Fa8%2Fd3a8402beddb224eb4615a05bf10132c455a2156.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_jacketscoats_shirtjackets%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
             }
         ],
-        "name": "Slim Fit jumper",
-        "price": 1690,
-        "quantity": 12,
-        "category": "Mens",
+        "name": "Twill overshirt",
+        "price": 1990,
+        "quantity": 23,
+        "category": "Men's",
         "type": "Clothes",
         "arrival": "New Arrival",
         "colors": [
             {
                 "link": "/",
-                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F35%2F68%2F3568c257a5d57c2318e35ead22d226e6a5362af4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_cardigansjumpers_jumpers%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-                "dataAltColor": "Dark beige"
+                "name": "Mustard yellow/Checked",
+                "img": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F93%2F79%2F9379d99db5c99ab37a2d0f111f069621b76baa84.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+                "dataAltColor": "Mustard yellow/Checked"
             }, 
             {
                 "link": "/",
-                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F52%2F6f%2F526fe1e208e5fd4b89c5c47e36c084ef42745ab4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-                "dataAltColor": "Dark khaki green"
+                "name": "White/Black checked",
+                "img": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F5c%2Fdd%2F5cdd8475b1f13d33106306d5b4a433fd2185ee5c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+                "dataAltColor": "White/Black checked"
             }, 
             {
                 "link": "/",
-                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fc2%2F49%2Fc24928ba921b1b4842a31d108bb44bd04697f6fd.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "name": "Beige/White checked",
+                "img": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fb2%2F14%2Fb21431346d4bb676e915c11033547b71b071911f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+                "dataAltColor": "Beige/White checked"
+            },
+            {
+                "link": "/",
+                "name": "Light blue/Grey checked",
+                "img": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F07%2F69%2F07690e3adb60642124c75fa107a6c7241f539a1e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+                "dataAltColor": "Light blue/Grey checked"
+            },
+            {
+                "link": "/",
+                "name": "Blue/White checked",
+                "img": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F07%2F69%2F07690e3adb60642124c75fa107a6c7241f539a1e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+                "dataAltColor": "Blue/White checked"
+            },
+            {
+                "link": "/",
+                "name": "Beige/Checked",
+                "img": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F37%2F66%2F3766ff4d354c866d672e9eaa771a5fbf5fa7a6ce.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+                "dataAltColor": "Beige/Checked"
+            },
+            {
+                "link": "/",
+                "name": "Blue/White checked",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F96%2Ffb%2F96fbee26cef11200e0c8a18d64f26fec1379fe07.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Blue/White checked"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Overshirt in twill with a collar, buttons down the front and a yoke at the back. Flap chest pockets with a button, and long sleeves with buttoned cuffs." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 6,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F4f%2Ff8%2F4ff8c52af78f53cd04ee95b3fa87befabd574f53.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F69%2Fe8%2F69e81c9fc4199eb27b2ac256c439b6fee57916d3.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+            }
+        ],
+        "name": "Regular Fit Long-sleeved polo shirt",
+        "price": 1990,
+        "quantity": 23,
+        "category": "Men's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Black",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F69%2Fe8%2F69e81c9fc4199eb27b2ac256c439b6fee57916d3.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Black"
+            }, 
+            {
+                "link": "/",
+                "name": "White",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F15%2Fa7%2F15a7de00d5eb177d1241d77d8791819d0f88be61.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "White"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Regular-fit polo shirt in soft cotton jersey with a collar and a V-shaped opening at the top. Long sleeves and a straight-cut hem with a slit at each side." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 7,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fa1%2Fa3%2Fa1a3ef40f7e14c17cc7e82de76e55da8bb34b43a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fbb%2F00%2Fbb004329ae81ac8c95923130f7f6b868c51e9ffd.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+            }
+        ],
+        "name": "Collared jacket",
+        "price": 3490,
+        "quantity": 25,
+        "category": "Men's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Black",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fbb%2F00%2Fbb004329ae81ac8c95923130f7f6b868c51e9ffd.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Black"
+            }, 
+            {
+                "link": "/",
+                "name": "White/Black checked",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F4e%2F59%2F4e59a0b115fd3abb80587f876508fccd91ce6af4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_hoodiessweatshirts_sweatshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Cream"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Slim-fit jumper in fine-knit cotton with a stand-up collar, zip at the front and long sleeves." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 8,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F45%2F86%2F4586fdc9a7782f27959e1117fc9bf082b7ca6027.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F4e%2F59%2F4e59a0b115fd3abb80587f876508fccd91ce6af4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_hoodiessweatshirts_sweatshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+            }
+        ],
+        "name": "Relaxed Fit Appliquéd sweatshirt",
+        "price": 1990,
+        "quantity": 23,
+        "category": "Men's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Cream",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F4e%2F59%2F4e59a0b115fd3abb80587f876508fccd91ce6af4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_hoodiessweatshirts_sweatshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Mustard yellow/Checked"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Slim-fit jumper in fine-knit cotton with a stand-up collar, zip at the front and long sleeves." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 9,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F0f%2F79%2F0f79603a148162c8d72afe67118329c4af7333a9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F77%2Fe3%2F77e3561c6c029ef87c865090d49de162affa5921.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B3%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+            }
+        ],
+        "name": "Slim Fit Zip-top polo shirt",
+        "price": 1990,
+        "quantity": 23,
+        "category": "Men's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Light brown",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F77%2Fe3%2F77e3561c6c029ef87c865090d49de162affa5921.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B3%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Light brown"
+            },
+            {
+                "link": "/",
+                "name": "Black",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fab%2Fd7%2Fabd763ffed484d095ed182dcc28d5c4c9c184498.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
                 "dataAltColor": "Black"
             }
         ],
@@ -316,6 +573,1650 @@
         ],
         "discount": null,
         "description": "Slim-fit jumper in fine-knit cotton with a stand-up collar, zip at the front and long sleeves." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 10,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F10%2F4b%2F104bde9c2d4ea20f625466269944ee796deeea45.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F4d%2Fa1%2F4da1da0cf93668ec1593ed99d7ccd005724e1eec.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+            }
+        ],
+        "name": "Loose Fit Bomber jacket",
+        "price": 2390,
+        "quantity": 23,
+        "category": "Men's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Dark beige",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F4d%2Fa1%2F4da1da0cf93668ec1593ed99d7ccd005724e1eec.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Dark beige"
+            },
+            {
+                "link": "/",
+                "name": "Black",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F09%2F84%2F09849ac85807c8992756a976681e9d9d1b7b2fd9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_jacketscoats_jackets%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Black"
+            },
+            {
+                "link": "/",
+                "name": "Blue",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F80%2F02%2F80023c17216e83f16742b2b4ba710efc9b7a6a43.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_jacketscoats_jackets%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Blue"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Lightly padded bomber jacket in nylon. Loose fit fit with a ribbed, stand-up collar and a zip down the front. Flap side pockets and two inner pockets with a concealed press-stud, and a zipped sleeve pocket. Wide ribbing at the cuffs and hem. Lined." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 11,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F21%2F3e%2F213eecd598961c7aff825f8aece687f0798fbd35.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F4f%2F73%2F4f73c12ecebdf59c6b1e696d1cc4c37e61d5ed11.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+            }
+        ],
+        "name": "Water-repellent puffer gilet",
+        "price": 2290,
+        "quantity": 23,
+        "category": "Men's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Black",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F4f%2F73%2F4f73c12ecebdf59c6b1e696d1cc4c37e61d5ed11.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Black"
+            },
+            {
+                "link": "/",
+                "name": "White",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fe5%2F1a%2Fe51aa0cbeaf94d704555ce9980d9c9c7c7b3c36c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Light beige"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Lightly padded bomber jacket in nylon. Loose fit fit with a ribbed, stand-up collar and a zip down the front. Flap side pockets and two inner pockets with a concealed press-stud, and a zipped sleeve pocket. Wide ribbing at the cuffs and hem. Lined." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 12,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fea%2Fef%2Feaef7dc0d5c9be299e23b7f073b3369eb6fe406a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fda%2F17%2Fda17b5d0c0a47fad269cb9c3e9edc9c9f2996af0.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+            }
+        ],
+        "name": "Regular Fit Hoodie",
+        "price": 999,
+        "quantity": 23,
+        "category": "Men's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Black/Harlem",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fda%2F17%2Fda17b5d0c0a47fad269cb9c3e9edc9c9f2996af0.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Black/Harlem"
+            },
+            {
+                "link": "/",
+                "name": "Dark blue/Chicago",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F95%2F1a%2F951ab114fa15a729522ae175d98853bc431720d5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Dark blue/Chicago"
+            },
+            {
+                "link": "/",
+                "name": "Cream/School Bus",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F3a%2F8c%2F3a8c0deddd193fd34d0ccb1dd3d61e87cf8c59e1.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Cream/School Bus"
+            },
+            {
+                "link": "/",
+                "name": "Light beige/Baseball",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F9f%2F43%2F9f43165404aaf96cea123cfa77ecbc37346dc666.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_hoodiessweatshirts_hoodies%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Light beige/Baseball"
+            },
+            {
+                "link": "/",
+                "name": "Orange/Strada",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F57%2F11%2F5711b9dcaebb68cfd81bd965cb38ff1a0d921e52.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_hoodiessweatshirts_hoodies%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Orange/Strada"
+            },
+            {
+                "link": "/",
+                "name": "Light beige/New York City",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F58%2Fe3%2F58e32f9901ed7927c532d09fcc5e47477b88d610.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_hoodiessweatshirts_hoodies%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Light beige/New York City"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Top in sweatshirt fabric with a double-layered drawstring hood, kangaroo pocket and wide ribbing at the cuffs and hem. Soft brushed inside." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 13,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F85%2Fe5%2F85e54fde56dbc217ea5be3936109988f36f31b06.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F1b%2Fd3%2F1bd3ad86196642097f7f76bda3a8c422e0200e96.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_blazers%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+            }
+        ],
+        "name": "Fitted jacket",
+        "price": 1690,
+        "quantity": 23,
+        "category": "Women's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Beige",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F1b%2Fd3%2F1bd3ad86196642097f7f76bda3a8c422e0200e96.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_blazers%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Beige"
+            },
+            {
+                "link": "/",
+                "name": "Black",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F5c%2Fbe%2F5cbed0421f76bfd31909a5a4a3d36bfc68567f94.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Black"
+            },
+            {
+                "link": "/",
+                "name": "Navy blue",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fd1%2F0f%2Fd10f1e515943417307c80db4a5986688d27bfde6.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Navy blue"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Fitted jacket in woven fabric with notch lapels and a single button fastening at the front. Jetted front pockets, a decorative button at the cuffs and a single back vent. Lined." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 14,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fac%2F98%2Fac98f9520a988d4b92ca8837da984caf32b10e36.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F72%2F8c%2F728c3b00b37f541682ea4d9648461d9e0fb70dd9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+            }
+        ],
+        "name": "Pleated chiffon dress",
+        "price": 2690,
+        "quantity": 23,
+        "category": "Women's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Black",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F72%2F8c%2F728c3b00b37f541682ea4d9648461d9e0fb70dd9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Black"
+            },
+            {
+                "link": "/",
+                "name": "Light green",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F7c%2Fe4%2F7ce44b3ee19915892d4b3eaac6c441c368116b40.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Light green"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Calf-length dress in crêpe chiffon with gathers at the front and back and a round neckline with a small opening and a concealed button at the front. Short raglan sleeves, covered elastication at the waist and a flared, pleated skirt. Lined." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 15,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F18%2F47%2F184717bb75b1cd5f7351c35b8090f7a33f2be0a4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa7%2F16%2Fa71665996f060180d044748d501e11f5f21a6c0e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+            }
+        ],
+        "name": "Pleated satin skirt",
+        "price": 2290,
+        "quantity": 23,
+        "category": "Women's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Light greige",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa7%2F16%2Fa71665996f060180d044748d501e11f5f21a6c0e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Light greige"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Ankle-length pleated skirt in satin with a slight sheen. Loose fit with a high, elasticated waist and a high slit at each side. Overlocked hem. Unlined." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 16,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fb6%2F09%2Fb6096827602d518ec0c0f4370b456a07e0662711.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fd2%2Fb0%2Fd2b0969cfd185acd30fb63b6ab0483090cf3655b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_trousers_highwaisted%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+            }
+        ],
+        "name": "Wide trousers",
+        "price": 1990,
+        "quantity": 23,
+        "category": "Women's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Black",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F21%2F4b%2F214b49061c3832e681fb2100118bf183025b9e4a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_trousers_highwaisted%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Black"
+            },
+            {
+                "link": "/",
+                "name": "Beige",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F07%2F71%2F07718e2b0b1b5dbdbdfe6e80f9f3b1647a246e1e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Beige"
+            },
+            {
+                "link": "/",
+                "name": "Dark beige/Checked",
+                "img": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F78%2F04%2F78047c28edaa8b3b0861ca54bd80452dda2d6835.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+                "dataAltColor": "Dark beige/Checked"
+            },
+            {
+                "link": "/",
+                "name": "Beige",
+                "img": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F84%2Fa3%2F84a35fa6eefc1b2ccd84d805b9bfe7784fa2f3c7.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+                "dataAltColor": "Beige"
+            },
+            {
+                "link": "/",
+                "name": "Grey marl",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fd2%2Fb0%2Fd2b0969cfd185acd30fb63b6ab0483090cf3655b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_trousers_highwaisted%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Grey marl"
+            },
+            {
+                "link": "/",
+                "name": "Greige",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fd8%2F45%2Fd845159b0a33db5d6780133ba6595d142a4ff3bc.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_trousers_highwaisted%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Greige"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Tailored, loose-fitting trousers in woven fabric. High waist with concealed elastication and a zip fly. Diagonal side pockets and fake welt back pockets. Wide, straight legs with pleats at the front." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 17,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F29%2F57%2F295709ffc47596f726e7fa5743409e0dbad61acd.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fb3%2F19%2Fb319ef576a6e3549e225bd6f75bcafc0363164e7.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_dresses_shortdresses%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+            }
+        ],
+        "name": "Draped dress",
+        "price": 1590,
+        "quantity": 23,
+        "category": "Women's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Black",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fb3%2F19%2Fb319ef576a6e3549e225bd6f75bcafc0363164e7.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_dresses_shortdresses%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Black"
+            },
+            {
+                "link": "/",
+                "name": "White",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F51%2Fc0%2F51c0ae6e3f8fd4982b44e9ced00954ceb57c76f0.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_dresses_shortdresses%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "White"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Short, sleeveless dress in jersey with an elegant, asymmetric neckline and pleats at one side of the waist to create a gently draped effect." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 18,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fdc%2F3b%2Fdc3b71efb198070a144f587f5cc2733b62762707.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Ffd%2F7a%2Ffd7acc40e9c22cf4d05f6073136329d739f1f9b3.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_dresses_mididresses%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+            }
+        ],
+        "name": "Gathered bodycon dress",
+        "price": 999,
+        "quantity": 23,
+        "category": "Women's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Beige/Snakeskin-patterned",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Ffd%2F7a%2Ffd7acc40e9c22cf4d05f6073136329d739f1f9b3.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_dresses_mididresses%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Beige/Snakeskin-patterned"
+            },
+            {
+                "link": "/",
+                "name": "Black/Zebra print",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F6a%2F16%2F6a169fba5d8cc2aa8b8c428301bd56f1de5f2579.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Black/Zebra print"
+            },
+            {
+                "link": "/",
+                "name": "Dark blue/Patterned",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F4c%2Fbc%2F4cbc0c42b352b3780ee26f213c8c9ce40d7f005b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Dark blue/Patterned"
+            },
+            {
+                "link": "/",
+                "name": "Black",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F94%2Fc3%2F94c3a568763626d58a0b1f239e3a6a7e60d2cf60.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Black"
+            },
+            {
+                "link": "/",
+                "name": "Light beige/Striped",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F28%2F59%2F28598f862408afb233eab9864700af5dc9078b52.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_dresses_mididresses%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Light beige/Striped"
+            },
+            {
+                "link": "/",
+                "name": "Black/Patterned",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F2b%2Fa0%2F2ba02e8f37518a0f68cafce374e40a0b092e1015.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_dresses_mididresses%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Black/Patterned"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Fitted, calf-length, sleeveless dress in soft jersey. Small stand-up collar and a concealed zip on one shoulder. Gathers at the waist for a gently draped effect and a straight-cut hem. Unlined." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 19,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F4d%2F43%2F4d43e95d434e43222da4501644fee61fad0a3135.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F95%2Fb8%2F95b8dc5326bc4a0e09ec0f978d7ead0a63c78d7f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+            }
+        ],
+        "name": "Knot-detail top",
+        "price": 999,
+        "quantity": 23,
+        "category": "Women's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Knot-detail top",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F95%2Fb8%2F95b8dc5326bc4a0e09ec0f978d7ead0a63c78d7f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Knot-detail top"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Fitted top in heavy jersey made from a viscose blend. Asymmetric neckline with a knot detail, a cut-out section at the front and long sleeves. Partly lined." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 20,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fa6%2F3f%2Fa63f69ead6ba210fbc25cd7022e7e6293cf17403.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fd0%2F65%2Fd06572f979c40049bbc0328aa2cec37087c983da.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_blazers%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+            }
+        ],
+        "name": "Double-breasted blazer",
+        "price": 2590,
+        "quantity": 23,
+        "category": "Women's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Beige",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fd0%2F65%2Fd06572f979c40049bbc0328aa2cec37087c983da.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_blazers%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Beige"
+            },
+            {
+                "link": "/",
+                "name": "White",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fee%2Ff3%2Feef36cdaa24742067f47f4b1956b90d48f6c3d98.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "White"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Loose-fit, double-breasted blazer in woven fabric with notch lapels and buttons at the front. Welt chest pocket, welt front pockets with a flap, and a single back vent. Decorative buttons at the cuffs. Lined." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 21,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F49%2F63%2F49632f7e4262fdd859f32b91eecd4bd4118a5be3.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F7b%2F71%2F7b7190c7305aebe83a85f4d6e2dcfd2dc22d0657.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+            }
+        ],
+        "name": "Cropped turtleneck top",
+        "price": 499,
+        "quantity": 23,
+        "category": "Women's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Light beige/Snakeskin-patterned",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F7b%2F71%2F7b7190c7305aebe83a85f4d6e2dcfd2dc22d0657.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Light beige/Snakeskin-patterned"
+            },
+            {
+                "link": "/",
+                "name": "Black",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F8b%2Ffe%2F8bfe12920092d7545e6fccfea10c1dc9a95cb942.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Black"
+            },
+            {
+                "link": "/",
+                "name": "Light beige",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fc3%2Ffd%2Fc3fd9f4c89710e4c909b49cf9103496298fdeca5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Light beige"
+            },
+            {
+                "link": "/",
+                "name": "Green",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F72%2F45%2F724569f81cad343825dd595280f920ef77aa819b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_croppedtops%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Green"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Cropped, sleeveless top in jersey with a turtleneck. Fitted style with gathered side seams for a gently draped effect." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 22,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fb9%2F1d%2Fb91d83899d8e6f2272b891fa997bffe4a4921a63.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_trousers_highwaisted%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F22%2F28%2F22286ca942ff3725c249c65bc6f8220f1065482d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_trousers_highwaisted%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+            }
+        ],
+        "name": "Wide trousers",
+        "price": 1990,
+        "quantity": 23,
+        "category": "Women's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Beige",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F22%2F28%2F22286ca942ff3725c249c65bc6f8220f1065482d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_trousers_highwaisted%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Beige"
+            },
+            {
+                "link": "/",
+                "name": "Black",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F6b%2F05%2F6b05adb9b354cf3b2517b3b333feae39ca66ebfd.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_trousers_highwaisted%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Black"
+            },
+            {
+                "link": "/",
+                "name": "Light purple",
+                "img": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fa9%2F83%2Fa983a26e67f81af1aa8c492f6afab6688a41eab7.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_trousers_highwaisted%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+                "dataAltColor": "Light purple"
+            },
+            {
+                "link": "/",
+                "name": "Dark green",
+                "img": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ff5%2Ffe%2Ff5fe9ee3746b67aa1875bfe50406234e963cffcc.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+                "dataAltColor": "Dark green"
+            },
+            {
+                "link": "/",
+                "name": "Wide trousers",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F84%2F58%2F845817fed8c3df58eae6b486f2df19e3191bb9cf.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_trousers_highwaisted%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Wide trousers"
+            },
+            {
+                "link": "/",
+                "name": "Lilac",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F42%2Ff9%2F42f9993071accf60a798315fad9d5c6c3871240b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Lilac"
+            },
+            {
+                "link": "/",
+                "name": "Navy blue",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fb7%2Fa0%2Fb7a04058efa98a29d139ffe1296b5cb6357d1065.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_trousers_highwaisted%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Navy blue"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Trousers in woven fabric made from recycled polyester with a high waist, concealed hook-and-eye fastener, zip fly and wide, straight legs with creases." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 23,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F5b%2Fd9%2F5bd9dfc6071f4ac408fa860190ab854eab53fb6b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F7f%2F91%2F7f91b5015832c41b17f2ed60f6098246fffd1932.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+            }
+        ],
+        "name": "Plissé wrap dress",
+        "price": 1790,
+        "quantity": 23,
+        "category": "Women's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Black",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F7f%2F91%2F7f91b5015832c41b17f2ed60f6098246fffd1932.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Black"
+            },
+            {
+                "link": "/",
+                "name": "Black/Leopard print",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F02%2F26%2F02263823b8041e3419c561b554a86a7abc75377c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_dresses_longsleevedress%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Black/Leopard print"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Short plissé dress in woven fabric with a V-shaped neckline. Wrapover front with narrow ties at one side and a concealed button at the other. Long sleeves with gathers over the shoulders and covered elastication at the cuffs. Partly lined." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 24,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ff5%2F21%2Ff521ee22d37eda744740db3dd887e71bf927c32a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F44%2F03%2F44031fbc69c4f891ce9479c5adb7b3473b6c124e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+            }
+        ],
+        "name": "Dark grey/Snakeskin-patterned",
+        "price": 2690,
+        "quantity": 23,
+        "category": "Women's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Dark grey/Snakeskin-patterned",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F44%2F03%2F44031fbc69c4f891ce9479c5adb7b3473b6c124e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Black"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Cardigan in sweatshirt fabric with a soft brushed inside. Round neckline with a frill-trimmed Peter Pan collar, dropped shoulders, press-studs down the front, open front pockets and long sleeves." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 25,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fd6%2F48%2Fd6484ff61186bd399bac1ec12ea4075da25950f2.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F57%2Ffd%2F57fd1ffc5198b6317df33f6bf1675f0a80771715.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+            }
+        ],
+        "name": "Collared cardigan",
+        "price": 499,
+        "quantity": 23,
+        "category": "Kid's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Black",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fd6%2F48%2Fd6484ff61186bd399bac1ec12ea4075da25950f2.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Black"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Cardigan in sweatshirt fabric with a soft brushed inside. Round neckline with a frill-trimmed Peter Pan collar, dropped shoulders, press-studs down the front, open front pockets and long sleeves." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 26,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F09%2F15%2F0915dd2f556bc8234099efaf96d4d0efbe8780a4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fe7%2F81%2Fe78187ad7dd2129094a871d2dbfdf9e56fbc66b5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+            }
+        ],
+        "name": "Oversized baseball jacket",
+        "price": 499,
+        "quantity": 23,
+        "category": "Kid's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Bright green/Basketball",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F09%2F15%2F0915dd2f556bc8234099efaf96d4d0efbe8780a4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Bright green/Basketball"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Oversized baseball jacket in sweatshirt fabric with a soft brushed inside and a print motif at the front. Ribbed stand-up collar, press-studs down the front and dropped shoulders. Ribbing at the cuffs and hem." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 27,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0a%2F0e%2F0a0e53b410e2da5851837b886dc348ea1cc42a42.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc2%2F2a%2Fc22a53679d9a640de812edfe5ee03bb77f66d62c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+            }
+        ],
+        "name": "Motif-detail baseball jacket",
+        "price": 799,
+        "quantity": 23,
+        "category": "Kid's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Motif-detail baseball jacket",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0a%2F0e%2F0a0e53b410e2da5851837b886dc348ea1cc42a42.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Motif-detail baseball jacket"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Oversized baseball jacket in sweatshirt fabric with a soft brushed inside and a print motif at the front. Ribbed stand-up collar, press-studs down the front and dropped shoulders. Ribbing at the cuffs and hem." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 28,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fde%2F94%2Fde944b8ec331d7ee7326d2fd8c80be9348e1ec40.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F98%2F3d%2F983d7ee3dd8f8ebcf983762674a27eb7dcbf27aa.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+            }
+        ],
+        "name": "Low-waisted denim skirt",
+        "price": 799,
+        "quantity": 23,
+        "category": "Kid's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Denim blue",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fde%2F94%2Fde944b8ec331d7ee7326d2fd8c80be9348e1ec40.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Denim blue"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Skirt in superstretch, flexible denim for maximum mobility. Low waist with adjustable elastication, a zip fly with buttons and flap side pockets with a button." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 30,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F40%2F72%2F4072b56529c16f989fff77c3901ce23dd350b59f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_girls_clothing_trousersjeans_jeans_relaxed%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fbf%2F57%2Fbf570ac94d7b6648797b29d40cd653277ea03508.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+            }
+        ],
+        "name": "Relaxed Fit Paper Bag Jeans",
+        "price": 1290,
+        "quantity": 23,
+        "category": "Kid's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Light denim blue/SmileyWorld",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F40%2F72%2F4072b56529c16f989fff77c3901ce23dd350b59f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_girls_clothing_trousersjeans_jeans_relaxed%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Light denim blue/SmileyWorld"
+            },
+            {
+                "link": "/",
+                "name": "Light denim blue/Mickey Mouse",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F87%2F54%2F8754bb23ddaec2360e3044ac068c8ffda40e056b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Light denim blue/Mickey Mouse"
+            },
+            {
+                "link": "/",
+                "name": "Denim blue/Minnie Mouse",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Ffb%2Fb7%2Ffbb76d99528199dae492f4da2104b94af6b976e6.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_girls_clothing_trousersjeans_jeans_relaxed%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Denim blue/Minnie Mouse"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Jeans in cotton denim with an all-over print and a relaxed fit through the hip, thigh and leg. Elasticated paper bag waist, fake fly with a button, diagonal side pockets and tapered legs." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 30,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F92%2F1a%2F921a212ac2bcf3428f17617839ceda2cdf8d5751.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fd5%2Fe5%2Fd5e5c1b60b6b7a2056eb103fe5a2c8fac5b1ace4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+            }
+        ],
+        "name": "Printed cotton shirt",
+        "price": 1290,
+        "quantity": 23,
+        "category": "Kid's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "White/SmileyWorld",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F92%2F1a%2F921a212ac2bcf3428f17617839ceda2cdf8d5751.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "White/SmileyWorld"
+            },
+            {
+                "link": "/",
+                "name": "Black/Wednesday",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F6f%2Fa9%2F6fa90ca47287aa7a72e28be22fdf69c501b7d501.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_clothing_tops_shirts_longsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Black/Wednesday"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Loose-fit shirt in a cotton weave with a print motif at the back and an embroidered motif on the chest pocket. Collar, buttons down the front, dropped shoulders, and long sleeves with buttoned cuffs. Rounded hem that is slightly longer at the back." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 31,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F9e%2F96%2F9e96d129e6a7b9752d9e64711456a5bc29485061.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_clothing_tops_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fd6%2F61%2Fd6613420a93bcd3ce32e9b3787e306dc2c128e83.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+            }
+        ],
+        "name": "Printed T-shirt",
+        "price": 699,
+        "quantity": 23,
+        "category": "Kid's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "White/SmileyWorld",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F9e%2F96%2F9e96d129e6a7b9752d9e64711456a5bc29485061.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_clothing_tops_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "White/SmileyWorld"
+            },
+            {
+                "link": "/",
+                "name": "Natural white/The Mandalorian",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F00%2Fec%2F00ec407e5b44d6f74ea101a5bbd607f32226c1ad.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Natural white/The Mandalorian"
+            },
+            {
+                "link": "/",
+                "name": "Black/Naruto",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F1e%2F96%2F1e9698939ad807320d9a5270e2684fe8e743d903.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Black/Naruto"
+            },
+            {
+                "link": "/",
+                "name": "Black/SmileyWorld",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F63%2F9d%2F639dbce38ba7185c6b36ac1eca0935ae26ee6b30.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_clothing_tops_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Black/SmileyWorld"
+            },
+            {
+                "link": "/",
+                "name": "Mustard yellow/Stranger Things",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F4f%2Fe3%2F4fe332240fc0aa499884464a579dff959d29d661.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_clothing_tops_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Mustard yellow/Stranger Things"
+            },
+            {
+                "link": "/",
+                "name": "Light green/The Simpsons",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fdf%2F63%2Fdf63ef9ccddd9d09c4a76084148a0c5ff01b38cb.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_clothing_tops_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Light green/The Simpsons"
+            },
+            {
+                "link": "/",
+                "name": "White/Batman",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fe4%2F64%2Fe46492e67f92f1a64fdc5c55fbedd3d71514ce0a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_clothing_tops_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "White/Batman"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Loose-fit shirt in a cotton weave with a print motif at the back and an embroidered motif on the chest pocket. Collar, buttons down the front, dropped shoulders, and long sleeves with buttoned cuffs. Rounded hem that is slightly longer at the back." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 32,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fd4%2Fc4%2Fd4c46cdea2d833e806b8f0f34287eb84b1fe900b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F54%2F68%2F5468de64c75bc494b56b4eb1730a14a174ce3a9b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+            }
+        ],
+        "name": "Printed hoodie",
+        "price": 1190,
+        "quantity": 23,
+        "category": "Kid's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Yellow/SmileyWorld",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fd4%2Fc4%2Fd4c46cdea2d833e806b8f0f34287eb84b1fe900b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Yellow/SmileyWorld"
+            },
+            {
+                "link": "/",
+                "name": "Cream/Sonic the Hedgehog",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F24%2F61%2F246141016a5376316dbe4224484c73ad80a72006.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Cream/Sonic the Hedgehog"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Loose-fit hoodie in lightweight sweatshirt fabric with a cheerful all-over print. Lined hood with a wrapover front, dropped shoulders and ribbing at the cuffs and hem." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 33,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F4c%2Fcf%2F4ccf5f014db7385cc95fb5f010278cc148ae8285.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_oldergirls_clothing_trousersjeans_jeans_wide%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F79%2F7a%2F797a0b457c481b4261f6b0319c06a8a3e2f25a24.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+            }
+        ],
+        "name": "Wide Leg Low Jeans",
+        "price": 1790,
+        "quantity": 23,
+        "category": "Kid's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Denim black/SmileyWorld",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F4c%2Fcf%2F4ccf5f014db7385cc95fb5f010278cc148ae8285.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_oldergirls_clothing_trousersjeans_jeans_wide%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Denim black/SmileyWorld"
+            },
+            {
+                "link": "/",
+                "name": "Denim blue/Care Bears",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F60%2Fc5%2F60c5960028760bd85801e3fe28b1ad6255728069.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Denim blue/Care Bears"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "5-pocket jeans in cotton denim with print motifs. Regular fit through the hip and thigh with wide legs. Low, adjustable, elasticated waist and a zip fly and button." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 34,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fb3%2F2c%2Fb32c8dc0c36ba35a030ca6605f49298d24988977.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F9c%2F08%2F9c08f2dcc44cc62168f70b4d8d87f83e90c8dabc.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+            }
+        ],
+        "name": "Relaxed Straight Fit Jeans",
+        "price": 1690,
+        "quantity": 23,
+        "category": "Kid's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Light denim blue/SmileyWorld",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fb3%2F2c%2Fb32c8dc0c36ba35a030ca6605f49298d24988977.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Light denim blue/SmileyWorld"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "5-pocket jeans in washed cotton denim with print motifs on the legs. Relaxed fit through the hip and thigh with straight legs. Adjustable, elasticated waist and a fake fly and button." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 35,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fd1%2Fdc%2Fd1dc125d6b6fbd6cf661e364989003f6b0bf3877.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_girls_clothing_dresses_longsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fec%2F7f%2Fec7f6ccf205dd01b19149375f375a0c5c9e2f1d5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+            }
+        ],
+        "name": "Patterned cotton dress",
+        "price": 599,
+        "quantity": 23,
+        "category": "Kid's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Pink/SmileyWorld",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fd1%2Fdc%2Fd1dc125d6b6fbd6cf661e364989003f6b0bf3877.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_girls_clothing_dresses_longsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Pink/SmileyWorld"
+            },
+            {
+                "link": "/",
+                "name": "Light purple/Care Bears",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F6a%2F5d%2F6a5d5350ed1af8857457d5eb96e4326aee9d963c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Light purple/Care Bears"
+            },
+            {
+                "link": "/",
+                "name": "Light blue/Frozen",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F09%2F2b%2F092be6981bc76ec416c13b8c314e158a76571daa.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Light blue/Frozen"
+            },
+            {
+                "link": "/",
+                "name": "Patterned cotton dress",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Ffb%2Fb3%2Ffbb375ee53dff15792b18d6c3691be6e9b4144e9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_girls_clothing_dresses_longsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Patterned cotton dress"
+            },
+            {
+                "link": "/",
+                "name": "Light yellow/Care Bears",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F1f%2F22%2F1f2287dcfc5ff59f903a1f2e064044ee48a8ec57.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_girls_clothing_dresses_longsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Light yellow/Care Bears"
+            },
+            {
+                "link": "/",
+                "name": "White/Barbie",
+                "img": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F9a%2Ff7%2F9af75c9a50235b3205f668cfa39b907d4d62af24.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_girls_clothing_dresses_longsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+                "dataAltColor": "White/Barbie"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Dress in soft cotton jersey with an all-over print. Round neckline with a narrow trim and long sleeves." ,
+        "updated_at": null,
+        "created_at": null
+    },
+    {
+        "id": 36,
+        "link": "/",
+        "group_id": null,
+        "role": null,
+        "image": [
+            {
+                "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F9b%2F5b%2F9b5b4afe1ac4f9cc8125489ff673ec37bb7b06e1.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltImage": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ff8%2F0c%2Ff80c759c0f48e9ff836714c0a1f554ce31736279.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+            }
+        ],
+        "name": "Motif-detail zip-through hoodie",
+        "price": 1590,
+        "quantity": 23,
+        "category": "Kid's",
+        "type": "Clothes",
+        "arrival": "New Arrival",
+        "colors": [
+            {
+                "link": "/",
+                "name": "Black/SmileyWorld",
+                "img": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F9b%2F5b%2F9b5b4afe1ac4f9cc8125489ff673ec37bb7b06e1.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+                "dataAltColor": "Black/SmileyWorld"
+            }
+        ],
+        "size": [
+            {
+                "xsmall": "XS"
+            },
+            {
+                "small": "S"
+            },
+            {
+                "medium": "M"
+            },
+            {
+                "large": "L"
+            },
+            {
+                "xlarge": "XL"
+            },
+            {
+                "xxlarge": "XXL"
+            }
+        ],
+        "discount": null,
+        "description": "Zip-through hoodie in sweatshirt fabric with a soft brushed inside and motifs on the chest and back. Loose fit with a double-layered hood, zip down the front, dropped shoulders and long sleeves. Kangaroo pockets and ribbing at the cuffs and hem." ,
         "updated_at": null,
         "created_at": null
     }

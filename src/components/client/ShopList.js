@@ -8,6 +8,10 @@ const ShopList = () => {
 
     // const { data: productList, error } = useFetch('/../../products.json')
 
+    const handleMensCLick = () => {
+        const mensProduct = products.filter(product => product.category === "Men's")
+    }
+
   return (
     <>
         <div className='w-full h-full py-2 p-3'>
