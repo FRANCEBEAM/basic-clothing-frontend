@@ -9,6 +9,7 @@ import ShopNow from '../../components/client/ShopNow'
 import Footer from '../../components/client/Footer'
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import HomeShop from './HomeShop'
 
 
 
@@ -26,7 +27,8 @@ const Home = () => {
     <>
       <Hero />
       <TopCloth />
-      <ShopList />
+      <HomeShop />
+      {/* <ShopList /> */}
       <Marquee />
       <LatestArrivals />
       <Deals />

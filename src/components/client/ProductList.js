@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Icon } from '@iconify/react';
 
-const ProductList = ({products}) => {
+const ProductList = ({products, selectedCategory}) => {
 
     const removeUnderscores = (text) => {
         return text.replace(/_/g, ' ');
@@ -47,13 +47,16 @@ const ProductList = ({products}) => {
         setHoveredStatesImage(newHoveredStates);
     };
 
-    const mensProduct = products.filter(product => product.category === "Kid's");
+
+    const filteredProduct = selectedCategory === "All" ? products : products.filter(product => product.category === selectedCategory)
+
+
       
 
   return (
     <>
         {
-            mensProduct.map((product, index) => { 
+            filteredProduct.map((product, index) => { 
                 const colors = Object.keys(product.colors).map((key) => product.colors[key])
                 const extraColorsCount = colors.length - 3
                 return (
