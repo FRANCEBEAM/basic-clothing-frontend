@@ -2,12 +2,17 @@ import { useState } from 'react'
 import ProductList from './ProductList'
 import SortCategory from './SortCategory'
 // import { products } from './ContentTemplate'
-import products from '../../data/products.json'
-// import useFetch from '../../hooks/useFetch'
+// import products from '../../data/products.json'
+import useFetch from '../../hooks/useFetch'
+// import useFetchData from '../../hooks/useFetchData'
+
 
 const ShopList = () => {
 
-    // const { data: productList, error } = useFetch('/../../products.json')
+    const { data: products, error,  isLoading} = useFetch('https://francebeam.github.io/clotheapi/products.json')
+
+    // const { data: products, error, loading } = useFetchData('https://francebeam.github.io/clotheapi/products.json')
+
 
     const [selectedCategory, setSelectedCategory] = useState('All')
     
@@ -72,6 +77,8 @@ const ShopList = () => {
                     </svg>
                 </div>
                 <div className='w-full gap-9 py-16 grid grid-cols-2 max-w-[1280px] m-auto justify-center md:grid-cols-3 lg:grid-cols-4'>
+
+                    { error && <div className='text-red'>Can't fetch data from resources</div>}
                     <ProductList 
                         products={products}
                         selectedCategory={selectedCategory}

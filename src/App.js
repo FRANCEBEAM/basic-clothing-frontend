@@ -15,9 +15,9 @@ import Aos from 'aos';
 import "aos/dist/aos.css";
 import NotFound from './components/client/NotFound';
 import Favorites from './pages/client/Favorites';
+import ProductDetails from './components/client/ProductDetails';
 
 function App() {
-
   useEffect(()=>{
     Aos.init({
         duration: 1000,
@@ -35,6 +35,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
+          <Route path="/product-details/:id" element={<ProductDetails />} />
           <Route path="/arrivals" element={<Arrivals />} />
           <Route path="/sales" element={<Sales />} />
           <Route path="/about" element={<About />} />

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useParams } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { BiShoppingBag, BiUser, BiSearch } from 'react-icons/bi'
 import { Icon } from '@iconify/react'
@@ -7,6 +7,8 @@ import { Icon } from '@iconify/react'
 const Navbar = () => {
     const [click, SetClick] = useState(false)
     const handleClick = () => SetClick(!click);
+
+    const { id } = useParams()
 
     //Active navigation links
     const [activeSection, setActiveHome] = useState('home');
@@ -61,12 +63,12 @@ const Navbar = () => {
     return (
         <>
             {!isAdminPage && (
-                <div className={`w-full fixed z-[999] ${location.pathname === '/signin' ? 'bg-transparent fixed' : ''} bg-${navbarBgColor} drop-shadow-md ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/favorites' || location.pathname === '/cart' || location.pathname === '/404' ? 'bg-white drop-shadow-md' : ''}`}>
+                <div className={`w-full fixed z-[999] ${location.pathname === '/signin' ? 'bg-transparent fixed' : ''} bg-${navbarBgColor} drop-shadow-md ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/favorites' || location.pathname === '/cart' || location.pathname === '/404' || location.pathname === `/product-details/${id}` ? 'bg-white drop-shadow-md' : ''}`}>
                     <nav className={`p-3 py-4 w-full flex items-center justify-between m-auto lg:gap-20 lg:py-1 lg:max-w-[1280px] lg:px-0  `}>
                         <div>
                             <Link to='/'>
                                 <img className='w-[100px]' 
-                                    src={`${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/favorites' || location.pathname === '/cart' ? `./assets/casibwhite.png` : `./assets/${logo}` }`} 
+                                    src={`${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/favorites' || location.pathname === '/cart' || location.pathname === '/products.json' || location.pathname === `/product-details/${id}` ? `../assets/casibwhite.png` : `../assets/${logo}` }`} 
                                     alt="casib logo"
                                     onClick={() => handleSetActiveSection('home')} />
                             </Link>
@@ -100,7 +102,7 @@ const Navbar = () => {
                                     </li>
                                 <li className="p-3 py-3 group" >
                                     <Link 
-                                        className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' || location.pathname === '/favorites' || location.pathname === '/404' ? 'text-black' : ''} ${click ? 'text-white' : ''}`}
+                                        className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' || location.pathname === '/favorites' || location.pathname === '/404' || location.pathname === `/product-details/${id}` ? 'text-black' : ''} ${click ? 'text-white' : ''}`}
                                         onClick={() => handleSetActiveSection('shop')} 
                                         to='/shop'>
                                         Shop

@@ -23,18 +23,18 @@ const SortCategory = ({selectedCategory, handleCategorySelect}) => {
         <div className='hidden sm:flex gap-2'>
             <button
               onClick={() => handleCategorySelect({ target: { value: 'All' } })}
-              className={`p-1 px-3 border-2 rounded-md ${selectedCategory === 'All' ? 'border-black' : 'border-gray-300'}`}
+              className={`p-1 px-3 border-2 rounded-md ${selectedCategory === 'All' ? 'bg-black text-white' : 'border-gray-300'}`}
               >All
             </button>
             <button 
               onClick={() => handleCategorySelect({ target: { value: "Men's" } })}
-              className={`p-1 px-3 border-2 rounded-md ${ selectedCategory === "Men's" ? 'border-black' : 'border-gray-300'
+              className={`p-1 px-3 border-2 rounded-md ${ selectedCategory === "Men's" ? 'bg-black text-white' : 'border-gray-300'
               }`}>Men's</button>
             <button 
-              className={`p-1 px-3 border-2 rounded-md ${ selectedCategory === "Women's" ? 'border-black' : 'border-gray-300' }`}
+              className={`p-1 px-3 border-2 rounded-md ${ selectedCategory === "Women's" ? 'bg-black text-white' : 'border-gray-300' }`}
               onClick={() => handleCategorySelect({ target: { value: "Women's" } })} >Women's</button>
             <button 
-              className={`p-1 px-3 border-2 border-black rounded-md ${ selectedCategory === "Kid's" ? 'border-black' : 'border-gray-300'}`}
+              className={`p-1 px-3 border-2 border-black rounded-md ${ selectedCategory === "Kid's" ? 'bg-black text-white' : 'border-gray-300'}`}
               onClick={() => handleCategorySelect({ target: { value: "Kid's" } })} >Kid's</button>
         </div>
         <div>

@@ -2,11 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Icon } from '@iconify/react';
 
-const ProductList = ({products, selectedCategory}) => {
+const ProductList = ({products , selectedCategory, loading}) => {
 
-    const removeUnderscores = (text) => {
-        return text.replace(/_/g, ' ');
-    }
 
     const truncate = (text, maxLength) => {
         if(text.length > maxLength) {
@@ -14,7 +11,6 @@ const ProductList = ({products, selectedCategory}) => {
         }
         return text;
     }
-
 
     const [hoveredStatesHeart, setHoveredStatesHeart] = useState(Array(products.length).fill(false));
     const [hoveredStatesImage, setHoveredStatesImage] = useState(Array(products.length).fill(false));
@@ -51,17 +47,15 @@ const ProductList = ({products, selectedCategory}) => {
     const filteredProduct = selectedCategory === "All" ? products : products.filter(product => product.category === selectedCategory)
 
 
-      
-
   return (
     <>
         {
-            filteredProduct.map((product, index) => { 
+          filteredProduct && filteredProduct.map((product, index) => { 
                 const colors = Object.keys(product.colors).map((key) => product.colors[key])
                 const extraColorsCount = colors.length - 3
                 return (
                 <div className='m-auto justify-center flex-1 py-6' key={product.id}>
-                    <Link className='w-full flex relative' to={product.link}>
+                    <Link className='w-full flex relative' to={`/product-details/${product.id}`}>
                         <img className='w-full' 
                             // src={product.image[0].src} 
                             src={hoveredStatesImage[index] ? product.image[0].dataAltImage : product.image[0].src }
@@ -91,7 +85,7 @@ const ProductList = ({products, selectedCategory}) => {
                         <div className='w-full flex gap-4 items-center'>
                             {
                                 
-                           colors.slice(0, 3).map((color, index) => {
+                            colors.slice(0, 3).map((color, index) => {
                                 return (
                                 <ul key={index}>
                                     <li>
