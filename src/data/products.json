@@ -39,22 +39,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -126,22 +126,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -186,22 +186,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -249,22 +249,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -335,22 +335,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -391,22 +391,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -447,22 +447,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -497,22 +497,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -553,22 +553,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -615,22 +615,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -671,22 +671,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -751,22 +751,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -813,22 +813,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -869,22 +869,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -919,22 +919,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -999,22 +999,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -1055,22 +1055,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -1135,22 +1135,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -1185,22 +1185,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -1241,22 +1241,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -1309,22 +1309,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -1395,22 +1395,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -1451,22 +1451,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -1501,22 +1501,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -1551,22 +1551,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -1601,22 +1601,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -1651,22 +1651,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -1701,22 +1701,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -1763,22 +1763,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -1819,22 +1819,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -1905,22 +1905,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -1961,22 +1961,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -2017,22 +2017,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -2067,22 +2067,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -2147,22 +2147,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,
@@ -2197,22 +2197,22 @@
         ],
         "size": [
             {
-                "xsmall": "XS"
+                "xsmall": 3
             },
             {
-                "small": "S"
+                "small": 4
             },
             {
-                "medium": "M"
+                "medium": 5
             },
             {
-                "large": "L"
+                "large": 6
             },
             {
-                "xlarge": "XL"
+                "xlarge": 7
             },
             {
-                "xxlarge": "XXL"
+                "xxlarge": 8
             }
         ],
         "discount": null,

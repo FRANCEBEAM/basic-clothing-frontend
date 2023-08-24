@@ -19,6 +19,7 @@ const Navbar = () => {
         
     const location = useLocation();
     const isAdminPage = location.pathname.startsWith('/admin');
+    const isProductDetails = location.pathname.startsWith('/product-details/')
     
 
     // navbar background
@@ -29,6 +30,7 @@ const Navbar = () => {
     const [barsColor, setBarsColor] = useState('white');
     const [iconsColor, setIconsColor] = useState('white');
     const [logo, setLogo] = useState('casibblack.png')
+    
     
     const handleScroll = () => {
         const scrollY = window.scrollY;
@@ -54,6 +56,7 @@ const Navbar = () => {
     }
 
     useEffect(() => {
+        
         window.addEventListener('scroll', handleScroll);
         return () => {
             window.addEventListener('scroll', handleScroll);
@@ -63,12 +66,12 @@ const Navbar = () => {
     return (
         <>
             {!isAdminPage && (
-                <div className={`w-full fixed z-[999] ${location.pathname === '/signin' ? 'bg-transparent fixed' : ''} bg-${navbarBgColor} drop-shadow-md ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/favorites' || location.pathname === '/cart' || location.pathname === '/404' || location.pathname === `/product-details/${id}` ? 'bg-white drop-shadow-md' : ''}`}>
+                <div className={`w-full fixed z-[999] ${location.pathname === '/signin' ? 'bg-transparent fixed' : ''} bg-${navbarBgColor} drop-shadow-md ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/favorites' || location.pathname === '/cart' || location.pathname === '/404' || isProductDetails ? 'bg-white drop-shadow-md' : ''}`}>
                     <nav className={`p-3 py-4 w-full flex items-center justify-between m-auto lg:gap-20 lg:py-1 lg:max-w-[1280px] lg:px-0  `}>
                         <div>
                             <Link to='/'>
                                 <img className='w-[100px]' 
-                                    src={`${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/favorites' || location.pathname === '/cart' || location.pathname === '/products.json' || location.pathname === `/product-details/${id}` ? `../assets/casibwhite.png` : `../assets/${logo}` }`} 
+                                    src={`${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/favorites' || location.pathname === '/cart' || location.pathname === '/products.json' || isProductDetails ? `./assets/casibwhite.png` : `./assets/${logo}` }`} 
                                     alt="casib logo"
                                     onClick={() => handleSetActiveSection('home')} />
                             </Link>
@@ -76,7 +79,7 @@ const Navbar = () => {
 
                         <div>
                             <div className={`cursor-pointer lg:hidden ${location.pathname === '/signin' ? 'hidden' : ''}`} onClick={handleClick}>
-                                {click ? '' : <FaBars className={`transition-all  ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' ? 'text-black' : `text-${barsColor}`}`} size={34} />}
+                                {click ? '' : <FaBars className={`transition-all  ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || isProductDetails ? 'text-black' : `text-${barsColor}`}`} size={34} />}
                             </div>
                             {!['/signin', '/signup', '/email-verification', '/verification-success', '/forgot-password', '/password-reset'].includes(location.pathname) && (
                                 <ul className={click ? `w-[320px] uppercase bg-black text-white absolute right-0 justify-center py-4 top-0 transition-all` : `text-${fontColor} top-[-2000%] w-[320px] absolute right-0 transition-all lg:top-[0px] lg:inline-flex lg:relative lg:items-center lg:w-full lg:uppercase text-lg lg:text-sm xl:gap-6`}>
@@ -92,7 +95,7 @@ const Navbar = () => {
                                     </li>
                                     <li className="p-3 group" >
                                         <Link 
-                                            className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' || location.pathname === '/favorites' || location.pathname === '/404' ? 'text-black' : ''} ${click ? 'text-white' : ''}`}
+                                            className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' || location.pathname === '/favorites' || location.pathname === '/404' || isProductDetails ? 'text-black' : ''} ${click ? 'text-white' : ''}`}
                                             onClick={() => handleSetActiveSection('home')}
                                             to='/'>
                                             Home
@@ -102,7 +105,7 @@ const Navbar = () => {
                                     </li>
                                 <li className="p-3 py-3 group" >
                                     <Link 
-                                        className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' || location.pathname === '/favorites' || location.pathname === '/404' || location.pathname === `/product-details/${id}` ? 'text-black' : ''} ${click ? 'text-white' : ''}`}
+                                        className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' || location.pathname === '/favorites' || location.pathname === '/404' || isProductDetails ? 'text-black' : ''} ${click ? 'text-white' : ''}`}
                                         onClick={() => handleSetActiveSection('shop')} 
                                         to='/shop'>
                                         Shop
@@ -112,7 +115,7 @@ const Navbar = () => {
                                 </li>
                                 <li className="p-3 py-3 group" >
                                     <Link 
-                                        className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' || location.pathname === '/favorites' || location.pathname === '/404' ? 'text-black' : ''} ${click ? 'text-white' : ''}`} 
+                                        className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' || location.pathname === '/favorites' || location.pathname === '/404' || isProductDetails ? 'text-black' : ''} ${click ? 'text-white' : ''}`} 
                                         onClick={() => handleSetActiveSection('sales')}
                                         to='/sales'>
                                         Sales
@@ -122,7 +125,7 @@ const Navbar = () => {
                                 </li>
                                 <li className="p-3 py-3 group" >
                                     <Link 
-                                        className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' || location.pathname === '/favorites' || location.pathname === '/404' ? 'text-black' : ''}${click ? 'text-white' : ''}`} 
+                                        className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' || location.pathname === '/favorites' || location.pathname === '/404' || isProductDetails ? 'text-black' : ''}${click ? 'text-white' : ''}`} 
                                         onClick={() => handleSetActiveSection('about')}
                                         to='/about'>
                                         About Us
@@ -132,7 +135,7 @@ const Navbar = () => {
                                 </li>
                                 <li className="p-3 py-3 group" >
                                     <Link 
-                                        className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' || location.pathname === '/favorites' || location.pathname === '/404' ? 'text-black' : ''}${click ? 'text-white' : ''}`} 
+                                        className={`relative ${location.pathname === '/shop' || location.pathname === '/arrivals' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' || location.pathname === '/favorites' || location.pathname === '/404' || isProductDetails ? 'text-black' : ''}${click ? 'text-white' : ''}`} 
                                         onClick={() => handleSetActiveSection('contact')}
                                         to='/contact'>
                                         Contact Us
@@ -149,21 +152,21 @@ const Navbar = () => {
                                             </div>
                                         </form>
                                     </li>
-                                    <li className={`p-3 py-3 text-lg ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' || location.pathname === '/favorites' || location.pathname === '/404' ? 'text-black' : `lg:text-${iconsColor}`} ${click ? 'text-white' : ''}`} >
+                                    <li className={`p-3 py-3 text-lg ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/cart' || location.pathname === '/favorites' || location.pathname === '/404' || isProductDetails ? 'text-black' : `lg:text-${iconsColor}`} ${click ? 'text-white' : ''}`} >
                                         <Link 
                                             to='/favorites'
                                             onClick={() => handleSetActiveSection('')}>
                                             <Icon icon="mdi:heart-outline" fontSize={24} />
                                         </Link>
                                     </li>
-                                    <li className={`p-3 py-3 text-lg ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/favorites' || location.pathname === '/cart' || location.pathname === '/404' ? 'text-black' || location.pathname === '/cart' : `lg:text-${iconsColor}`} ${click ? 'text-white' : ''}`} >
+                                    <li className={`p-3 py-3 text-lg ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/favorites' || location.pathname === '/cart' || location.pathname === '/404' || isProductDetails ? 'text-black' || location.pathname === '/cart' : `lg:text-${iconsColor}`} ${click ? 'text-white' : ''}`} >
                                         <Link 
                                             to='/cart'
                                             onClick={() => handleSetActiveSection('')}>
                                             <BiShoppingBag size={24} />
                                         </Link>
                                     </li>
-                                    <li className={`p-3 py-3 text-lg ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/favorites' || location.pathname === '/cart' || location.pathname === '/404' ? 'text-black' : `lg:text-${iconsColor}`} ${click ? 'text-white' : ''}`} >
+                                    <li className={`p-3 py-3 text-lg ${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/favorites' || location.pathname === '/cart' || location.pathname === '/404' || isProductDetails ? 'text-black' : `lg:text-${iconsColor}`} ${click ? 'text-white' : ''}`} >
                                         <Link to='/signin'>
                                             <BiUser size={24} />
                                         </Link>
