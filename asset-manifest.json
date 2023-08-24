@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/basic-clothing-frontend/static/css/main.f9bc7582.css",
-    "main.js": "/basic-clothing-frontend/static/js/main.ad489780.js",
+    "main.css": "/basic-clothing-frontend/static/css/main.b86fbb4c.css",
+    "main.js": "/basic-clothing-frontend/static/js/main.23a5ae9c.js",
     "index.html": "/basic-clothing-frontend/index.html",
-    "main.f9bc7582.css.map": "/basic-clothing-frontend/static/css/main.f9bc7582.css.map",
-    "main.ad489780.js.map": "/basic-clothing-frontend/static/js/main.ad489780.js.map"
+    "main.b86fbb4c.css.map": "/basic-clothing-frontend/static/css/main.b86fbb4c.css.map",
+    "main.23a5ae9c.js.map": "/basic-clothing-frontend/static/js/main.23a5ae9c.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9bc7582.css",
-    "static/js/main.ad489780.js"
+    "static/css/main.b86fbb4c.css",
+    "static/js/main.23a5ae9c.js"
   ]
 }
