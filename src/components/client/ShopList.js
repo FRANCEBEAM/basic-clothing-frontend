@@ -11,8 +11,6 @@ const ShopList = () => {
 
     const { data: products, error,  isLoading} = useFetch('https://francebeam.github.io/clotheapi/products.json')
 
-    // const { data: products, error, loading } = useFetchData('https://francebeam.github.io/clotheapi/products.json')
-
 
     const [selectedCategory, setSelectedCategory] = useState('All')
     

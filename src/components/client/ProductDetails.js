@@ -38,10 +38,10 @@ const ProductDetails = () => {
                 <h1 className='text-black text-2xl font-black md:text-3xl'>{name}</h1>
                 <p className='text-black py-3 md:text-lg'>PHP {price}</p>
                 <div className='z-50 flex gap-2 py-4 flex-wrap w-full'>
-                <div className='flex gap-3'>
+                <div className='flex gap-3 w-full flex-wrap'>
                   {
                     colors.map((color) => (
-                      <img key={color.id} className='w-full' src={color.img} alt="" />
+                      <img key={color.id} className='w-20' src={color.img} alt="" />
                       ))
                   }
                 </div>

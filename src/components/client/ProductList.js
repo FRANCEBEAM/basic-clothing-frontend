@@ -43,6 +43,16 @@ const ProductList = ({products , selectedCategory, loading}) => {
         setHoveredStatesImage(newHoveredStates);
     };
 
+    //Add to favorite function
+    const [favoriteProducts, setFavoriteProducts] = useState([]);
+    const toggleFavorite = (productId) => {
+        if (favoriteProducts.includes(productId)) {
+            setFavoriteProducts(favoriteProducts.filter((id) => id !== productId))
+        } else {
+            setFavoriteProducts([...favoriteProducts, productId])
+        }
+    }
+
 
     const filteredProduct = selectedCategory === "All" ? products : products.filter(product => product.category === selectedCategory)
 
@@ -55,8 +65,22 @@ const ProductList = ({products , selectedCategory, loading}) => {
                 const extraColorsCount = colors.length - 3
                 return (
                 <div className='m-auto justify-center flex-1 py-6' key={product.id}>
-                    <Link className='w-full flex relative' to={`/product-details/${product.id}`}>
-                        <img className='w-full' 
+                    <div className='relative top-5 right-3 z-50 block' 
+                            onMouseEnter={() => handleHoverEnter(index)} 
+                            onMouseLeave={() => handleHoverLeave(index)}
+                            >
+                        {hoveredStatesHeart[index] ? (
+                            <div className='bg-gray-300 rounded-full p-2 absolute top-2 right-1 block'>
+                                <Icon className='cursor-pointer block text-[30px] bg-none' icon="ph:heart-light" />
+                            </div>
+                        ) : (
+                            <div className='p-2 absolute top-2 right-1 block'>
+                                <Icon className='w-full cursor-pointer block text-[30px]' icon="ph:heart-light" />
+                            </div>
+                        )}
+                    </div>
+                    <Link className='w-full flex relative z-0' to={`/product-details/${product.id}`}>
+                        <img className='w-full z-0' 
                             // src={product.image[0].src} 
                             src={hoveredStatesImage[index] ? product.image[0].dataAltImage : product.image[0].src }
                             dataaltimage={product.image[0].dataAltImage}
@@ -64,19 +88,6 @@ const ProductList = ({products , selectedCategory, loading}) => {
                             onMouseEnter={() => handleHoverImageEnter(index)}
                             onMouseLeave={() => handleHoverImageLeave(index)}
                             />
-                        <div className='absolute top-5 right-3' 
-                            onMouseEnter={() => handleHoverEnter(index)} 
-                            onMouseLeave={() => handleHoverLeave(index)}>
-                        {hoveredStatesHeart[index] ? (
-                            <div className='bg-gray-300 rounded-full p-2'>
-                                <Icon className='cursor-pointer block text-[30px] bg-none' icon="ph:heart-light" />
-                            </div>
-                        ) : (
-                            <div className='p-2'>
-                                <Icon className='cursor-pointer block text-[30px]' icon="ph:heart-light" />
-                            </div>
-                        )}
-                        </div>
                         <div className='absolute left-4 top-7 bg-black p-1 px-3 text-white rounded-md'>
                             <p className='text-xs md:text-sm'>{product.arrival}</p>
                         </div>

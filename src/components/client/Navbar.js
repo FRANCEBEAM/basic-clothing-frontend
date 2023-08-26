@@ -71,7 +71,7 @@ const Navbar = () => {
                         <div>
                             <Link to='/'>
                                 <img className='w-[100px]' 
-                                    src={`${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/favorites' || location.pathname === '/cart' || location.pathname === '/products.json' || isProductDetails ? `./assets/casibwhite.png` : `./assets/${logo}` }`} 
+                                    src={`${location.pathname === '/shop' || location.pathname === '/sales' || location.pathname === '/about' || location.pathname === '/contact' || location.pathname === '/favorites' || location.pathname === '/cart' || location.pathname === '/products.json' || isProductDetails ? `../assets/casibwhite.png` : `../assets/${logo}` }`} 
                                     alt="casib logo"
                                     onClick={() => handleSetActiveSection('home')} />
                             </Link>
@@ -85,7 +85,7 @@ const Navbar = () => {
                                 <ul className={click ? `w-[320px] uppercase bg-black text-white absolute right-0 justify-center py-4 top-0 transition-all` : `text-${fontColor} top-[-2000%] w-[320px] absolute right-0 transition-all lg:top-[0px] lg:inline-flex lg:relative lg:items-center lg:w-full lg:uppercase text-lg lg:text-sm xl:gap-6`}>
                                     <li className='p-3 py-3 flex justify-between items-center'>
                                         <Link to='/home'>
-                                            <img className='w-[100px] lg:hidden' src="./assets/casibblack.png" alt="casib logo" />
+                                            <img className='w-[100px] lg:hidden' src="../assets/casibblack.png" alt="casib logo" />
                                         </Link>
                                         <div className='cursor-pointer lg:hidden' onClick={handleClick}>
                                             {
